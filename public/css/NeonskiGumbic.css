@@ -1,0 +1,187 @@
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+.Neon{
+  position: relative;
+  display: inline-block;
+  padding: 0.5vw 0.8vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  color: white;
+  font-size: 1vw;
+  font-weight: bold;
+  transition: .5s;
+  overflow: hidden;
+  text-decoration: none;
+}
+.Neon:hover{
+  background-color: royalblue;
+  color: #050801;
+  box-shadow: 0 0 0.3vw royalblue,
+              0 0 0.8vw royalblue,
+              0 0 1.5vw royalblue,
+              0 0 3vw royalblue;
+
+  /*-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);*/
+}
+
+.Neon span{
+  position: absolute;
+  display: block;
+}
+.Neon span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, royalblue);
+  animation: animate1 2s infinite;
+}
+@keyframes animate1{
+  0%{
+    left: -100%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+.Neon span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, royalblue);
+  animation: animate2 2s infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate2{
+  0%{
+    top: -100%;
+  }
+  100%{
+    top: 100%;
+  }
+}
+.Neon span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(270deg, transparent, royalblue);
+  animation: animate3 2s infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3{
+  0%{
+    right: -100%;
+  }
+  100%{
+    right: 100%;
+  }
+}
+.Neon span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, royalblue);
+  animation: animate4 2s infinite;
+  animation-delay: 1.5s;
+}
+@keyframes animate4{
+  0%{
+    bottom: -100%;
+  }
+  100%{
+    bottom: 100%;
+  }
+}
+
+a span:nth-child(5){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, royalblue);
+  animation: animate5 2s infinite;
+  animation-delay: 1s;
+}
+@keyframes animate5{
+  0%{
+    left: -100%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+a span:nth-child(6){
+  top: -100%;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, royalblue);
+  animation: animate2 2s infinite;
+  animation-delay: 1.5s;
+}
+@keyframes animate2{
+  0%{
+    top: -100%;
+  }
+  100%{
+    top: 100%;
+  }
+}
+a span:nth-child(7){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(270deg, transparent, royalblue);
+  animation: animate3 2s infinite;
+  animation-delay: 2s;
+}
+@keyframes animate3{
+  0%{
+    right: -100%;
+  }
+  100%{
+    right: 100%;
+  }
+}
+a span:nth-child(8){
+  bottom: -100%;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, royalblue);
+  animation: animate4 2s infinite;
+  animation-delay: 2.5s;
+}
+@keyframes animate4{
+  0%{
+    bottom: -100%;
+  }
+  100%{
+    bottom: 100%;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .Neon{
+    font-size: 1.2vh;
+    padding: 0.8vh;
+  }
+
+  .Neon span:nth-child(1), .Neon span:nth-child(3), .Neon span:nth-child(5), .Neon span:nth-child(7){
+    height: 2.5px;
+  }
+
+  .Neon span:nth-child(2), .Neon span:nth-child(4), .Neon span:nth-child(6), .Neon span:nth-child(8){
+    width: 2.5px;
+  }
+}

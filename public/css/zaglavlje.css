@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Zaglavlje{
+  display: flex;
+  width: 100%;
+  height: 3.5vw;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 183, 255);
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+}
+
+.Lijevo1{ /*bez 1*/
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+  height: fit-content;
+  border: none;
+}
+
+.Desno1{ /*bez 1*/
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  height: fit-content;
+  border: none;
+  margin-right: 1vw;
+}
+
+.Gumb-Naslovnica{
+  display: flex;
+  border: none;
+  margin-left: 1.5vw;
+  width: 100%;
+  height: 2.5vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+}
+.Gumb-Naslovnica:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Naslovnica:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Gumb-Galerija{ /* test */
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 2.5vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+}
+.Gumb-Galerija:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Galerija:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Gumb-Minerali{ /* test */
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 2.5vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+}
+.Gumb-Minerali:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Minerali:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Gumb-PSE{ /* test */
+  display: flex;
+  border: none;
+  width: 100%;
+  height: 2.5vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+  
+}
+.Gumb-PSE:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-PSE:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.dec-none{
+  text-decoration: none;
+  border-radius: 2vw;
+}
+.dropdown-item:hover{
+  background-color: royalblue;
+  color: white;
+}
+.Alink{
+  display: flex;
+  text-decoration: none; 
+  color: black;
+  height: 100%;
+  align-items: center;
+  margin-left: 0.5vw;
+  font-family: 'Rubik';
+}
+.Blink{
+  font-family: 'rubik';
+  font-weight: bold;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-size: 1vw;
+  padding: 0 1vw; 
+  height: 4vh;
+  color: white;
+  border-radius: 10vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.1vw;
+  transition: 0.3s;
+  font-family: 'Rubik';
+}
+.Alink{
+  color: silver;
+  font-family: 'Rubik';
+}
+.Alink:hover, .Blink:hover{
+  color: silver;
+}
+.dropdown-item{
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Rubik';
+}
+.Mjestooo{
+  font-family: 'rubik';
+  font-weight: 400;
+  color: white;
+}
+.ZGL{
+  display: flex;
+  background-color: #454545;
+  height: 6vh;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  font-family: 'Rubik';
+}
+@media(min-width: 1200px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 30%;
+  }
+}
+@media(max-width: 1399px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 30%;
+  }
+}
+@media(max-width: 1199px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 40%;
+  }
+}
+@media(max-width: 991px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 40%;
+  }
+}
+
+@media screen and (orientation:landscape){
+  .Desno1{
+    width: 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  
+  .Blink{
+    font-size: 1.2vw;
+  }
+  .Mjestoo{
+    font-size: 1vw;
+  }
+}
+
+
+
+@media (max-width: 1199px) {
+  
+  .Blink{
+    font-size: 1.5vw;
+    padding: 0 1.5vw;
+  }
+}
+
+@media (max-width: 991px) {
+  
+  .Blink{
+    font-size: 3.5vw;
+    padding: 0 2vw;
+  }
+  .Mjestooo{
+    font-size: 2.3vw;
+  }
+  .btn{
+    font-size: 3.5vw;
+  }
+  .dropdown-item{
+    font-size: 3vw;
+    height: 6vw;
+  }
+}
+@media (max-height: 421px) and (orientation: landscape){
+  .Blink{
+    font-size: 2.2vw;
+  }
+  .Mjestooo{
+    font-size: 2vw;
+  }
+  .btn{
+    font-size: 2.2vw;
+  }
+  .dropdown-item{
+    font-size: 2vw;
+    height: 3.5vw;
+  }
+  .ZGL{
+    height: 12vh;
+  }
+}
+
+
+@media (max-width: 767px) {
+  
+  .Blink{
+    font-size: 3vw;
+    padding: 0 3vw;
+  }
+}
+
+@media (max-width: 575px) {
+  
+  .Blink{
+    font-size: 3.5vw;
+    padding: 0 3vw;
+  }
+}
+.btn:hover{
+  color: silver;
+}

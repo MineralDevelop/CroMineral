@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Zilla+Slab:wght@500&display=swap');
+
+.Sve{
+  display: flex;
+  justify-content: center;
+}
+
+.NultaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.PrvaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.DrugaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.TrecaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.CetvrtaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.PetaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.SestaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+.SedmaPerioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: space-between;
+}
+.Sesta--Perioda{
+  margin-top: 2vw;
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: right;
+  margin-bottom: 0.25vw;
+}
+.Sedma--Perioda{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 85vw;
+  justify-content: right;
+}
+
+.Dodatno{
+  display: flex;
+  /*border: solid;
+  border-color: blue;*/
+  width: 81.8vw;
+  justify-content: space-between;
+  margin-bottom: 0.25vw;
+}
+
+.Desno{
+  display: flex;
+}
+.Lijevo{
+  display: flex;
+}
+
+.Gumb-Nemetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.15vw; /* 4.354vw */
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+
+  border: none;
+  text-decoration: none;
+  background-color: #CCCCFF;
+}
+.Box-Nemetal:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.Gumb-Nemetal:hover{
+  cursor: pointer;
+}
+.Gumb-Metal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.15vw; /* 4.354vw */
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+
+  
+
+  border: none;
+  text-decoration: none;
+  background-color: #6495ED;
+}
+.Box-Metal:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.Gumb-Metal:hover{
+  cursor: pointer;
+}
+.Gumb-Polumetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 4.15vw; /* 4.354vw */
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+
+  border: none;
+  text-decoration: none;
+  background-color: #1ABC9C;
+}
+.Box-Polumetal:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.Gumb-Polumetal:hover{
+  cursor: pointer;
+}
+
+.Prazan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-color: white;
+  border-width: 0.2vw;
+  width: 4.46vw;
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+}
+.Box-Nemetal{
+  display: flex;
+  flex-direction: column; /* ! */
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.2vw;
+  width: 4.15vw;
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+  background-color: #CCCCFF;
+
+  border-color: black;
+}
+.Box-Polumetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.2vw;
+  width: 4.15vw;
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+  background-color: #1ABC9C;
+
+  border-color: black;
+}
+.Box-Metal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.2vw;
+  width: 4.15vw;
+  height: 4.15vw;
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+  background-color: #6495ED;
+
+  border-color: black;
+}
+.Odabir{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.15vw;
+  height: 4.15vw;
+}
+
+
+.Lantanoidi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  width: 4.15vw;
+  height: 4.15vw;
+  font-size: 0.8vw;
+  flex-direction: column;
+  font-family: 'Zilla Slab';
+  background-color: #6495ED;
+}
+.Aktinoidi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  width: 4.15vw;
+  height: 4.15vw;
+  font-size: 0.8vw;
+  flex-direction: column;
+  font-family: 'Zilla Slab';
+  background-color: #6495ED;
+}
+.L, .A{
+  font-size: 0.8vw;
+}
+.crtica{
+  font-size: 3vw;
+  margin-top: -1.5vw;
+  margin-bottom: -1vw;
+}
+
+.Lan{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 1.5vw;
+  margin-right: 1vw;
+  font-family: 'Zilla Slab';
+  width: 18%;
+}
+.Akt{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 1.5vw;
+  margin-right: 1vw;
+  font-family: 'Zilla Slab';
+  width: 18%;
+}
+
+.AtomskiBroj{
+  font-size: 0.7vw;
+  margin-bottom: -0.3vw;
+  margin-top: -0.1vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.Simbol{
+  font-size: 2vw;
+  margin-top: -0.1vw;
+}
+.Simbol-Plin{
+  font-size: 2vw;
+  margin-top: -0.1vw;
+  color: #ffffff;
+}
+.Simbol-Tekucina{
+  font-size: 2vw;
+  margin-top: -0.1vw;
+  color: #f72fe6;
+}
+.Ime{
+  font-size: 0.8vw;
+  margin-top: -0.3vw;
+  font-weight: bold;
+}
+.Relativna{
+  font-size: 0.7vw;
+  margin-top: -0.05vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+
+.ImeDugo{
+  font-size: 0.73vw;
+  margin-top: -0.3vw;
+  font-weight: bold;
+}
+
+.AtomskiBrojLanAkt{
+  font-size: 0.7vw;
+  margin-top: -0.1vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.SimbolLanAkt{
+  font-size: 1.2vw;
+  margin-top: -0.1vw;
+  font-weight: bold;
+}
+.ImeLanAkt{
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.Link{
+  text-decoration: none; /* 4.354 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Slika1{
+  width: 23vw;
+}
+
+.Prazan2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 0.2vw;
+  width: 37.3vw;
+  height: 4.15vw; 
+  font-family: 'Zilla Slab';
+  font-size: 2vw;
+}
+
+.rub{
+  display: flex;
+  border: solid;
+  align-items: center;
+  justify-content: center;
+  font-family: 'work sans';
+  font-weight: bold;
+  border-top-left-radius: 0.5vw;
+  border-bottom-left-radius: 0.5vw;
+  font-size: 1.5vw;
+  width: 1.4vw;
+  margin-left: -2vw;
+  margin-top: 0.1vw;
+  margin-bottom: 0.12vw;
+}
+
+.vrh{
+  display: flex;
+  border: solid;
+  width: 4.15vw;
+  height: 1.4vw;
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+
+.vrhD{
+  display: flex;
+  border: solid;
+  width: 4.15vw;
+  height: 1.4vw;
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+
+.PoravnanjeD{
+  display: flex;
+  justify-content: space-between;
+  width: 23.5vw;
+  margin-top: 2.7vw;
+}
+
+.PoravnanjeL{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.7vw;
+}
+
+.PoravnanjeS{
+  display: flex;
+  justify-content: space-between;
+  width: 47.1vw;
+  margin-top: 2.7vw;
+}
+
+
+
+
+.Oznake{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 8.3vw;
+  height: 8.3vw;
+  margin-left: -7vw; /* 22*/
+  margin-top: -4vw;
+  background-color: #CCCCFF;
+}
+
+.AtomskiBrojPrimjer{
+  font-size: 1.2vw;
+  margin-bottom: -0.6vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.SimbolPrimjer{
+  font-size: 4vw;
+  margin-top: -0.1vw;
+  color: #f72fe6;
+}
+.ImePrimjer{
+  font-size: 1.4vw;
+  margin-top: -0.6vw;
+  font-weight: bold;
+}
+.RelativnaPrimjer{
+  font-size: 1.2vw;
+  margin-top: -0.05vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+
+
+
+.SvaObjasnjenja{
+  /*border: solid;
+  border-color: blue;*/
+  width: 25vw;
+  height: 12vw;
+  margin-top: -4vw;
+  margin-left: -4vw;
+}
+
+.AtomskiObjasnjenje{
+  display: flex;
+  border: solid;
+  align-items: center;
+  width: 15vw;
+  height: 1.5w;
+  margin-bottom: 2vw;
+  margin-top: 2.15vw;
+  margin-left: 0.7vw;
+}
+.SimbolObjasnjenje{
+  display: flex;
+  border: solid;
+  border-color: green;
+  align-items: center;
+  width: 24vw;
+  height: 1.5w;
+  margin-bottom: 2vw;
+  margin-top: -0.6vw;
+  margin-left: 2.2vw;
+}
+.ImeObjasnjenje{
+  display: flex;
+  border: solid;
+  align-items: center;
+  width: 15vw;
+  height: 1.5w;
+  margin-bottom: 2vw;
+  margin-top: -0.9vw;
+  margin-left: 1.8vw;
+}
+.RelativnaObjasnjenje{
+  display: flex;
+  border: solid;
+  align-items: center;
+  width: 20vw;
+  height: 1.5w;
+  margin-bottom: 2vw;
+  margin-top: -1.9vw;
+  margin-left: 1.8vw;
+}
+
+.Triangl-L{
+  width: 0;
+  height: 0;
+  border-top: 0.4vw solid transparent;
+  border-right: 1vw solid black;
+  border-bottom: 0.4vw solid transparent;
+}
+.Stapic{
+  border: none;
+  height: 0.2vw;
+  width: 4vw;
+  background-color: black;
+  margin-right: 0.5vw;
+}
+
+.Opis{
+  display: flex;
+  font-size: 1.1vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.SimbolStanje{
+  display: flex;
+  border: solid;
+  border-width: 0.2vw;
+  border-color: blue;
+
+  align-items: center;
+}
+.Stanje{
+  border: solid;
+  border-width: 0.2vw;
+  border-color: red;
+
+  width: 4vw;
+  height: 2vw;
+}
+
+.Krutina{
+  font-size: 0.8vw;
+}
+.Tekućina{
+  font-size: 0.8vw;
+}
+.Plin{
+  font-size: 0.8vw;
+}

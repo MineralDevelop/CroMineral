@@ -1,0 +1,1476 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #FFFFFF;
+}
+
+.dec-none{
+  text-decoration: none;
+}
+
+.Gumb-Nazad{
+  font-family: 'Rubik';
+  display: flex;
+  border: none;
+  margin-left: 1.5vw;
+  width: 100%;
+  height: 3.5vw;
+  font-size: 1.7vw;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+}
+.Gumb-Nazad:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Nazad:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Nazad{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 0.2vw;
+}
+.Sredina{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3.5vw;
+  border: none;
+}
+
+.PSE{
+  display: flex;
+  border-bottom: solid;
+  padding-bottom: 1vw;
+  border-bottom-width: 0.2vw;
+  margin-top: 1vw;
+  padding: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.IzPSEMetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.4vw;
+  width: 12vw; /* 8.3 */
+  height: 12vw; /* 8.3 */
+
+  background-color: #6495ED;
+}
+.IzPSENemetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.4vw;
+  width: 12vw; /* 8.3 */
+  height: 12vw; /* 8.3 */
+
+  background-color: #CCCCFF;
+}
+.IzPSEPolumetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.4vw;
+  width: 12vw; /* 8.3 */
+  height: 12vw; /* 8.3 */
+
+  background-color: #1ABC9C;
+}
+
+.AtomskiBroj{
+  font-size: 2vw; /*1.4*/
+  margin-bottom: -0.6vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.Ime{
+  font-size: 2.2vw; /*1.6*/
+  margin-top: -0.8vw;
+  font-weight: bold;
+  font-family: 'Zilla Slab';
+}
+.Relativna{
+  font-size: 2vw; /* 1.4 */
+  margin-top: -0.2vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.Simbol{
+  font-size: 4.6vw; /*4*/
+  margin-top: -0.2vw;
+  color: black;
+  font-family: 'Zilla Slab';
+}
+.Simbol-Plin{
+  font-size: 4.6vw; /*4*/
+  margin-top: -0.2vw;
+  color: #ffffff;
+  font-family: 'Zilla Slab';
+}
+.Simbol-Tekucina{
+  font-size: 4.6vw; /*4*/
+  margin-top: -0.2vw;
+  color: #f72fe6;
+  font-family: 'Zilla Slab';
+}
+
+.Detalji{
+  display: flex;
+  margin-left: 1.3vw;
+  text-size-adjust: none;
+
+  /*border: solid;
+  border-width: 0.1vw;*/
+}
+.L{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*border: solid;*/
+
+  height: 9vw;
+}
+.D{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*border: solid;*/
+  margin-left: 2vw;
+
+  height: 9vw;
+}
+.SimbolPSE{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.BrojProtona{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.BrojElektorna{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.BrojNeutrona{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.Taliste{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.Vreliste{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.AtomskaMasa{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.AgregatnoStanje{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.Radio{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+.Umjetan{
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.O-elementu{
+  display: flex;
+  width: 90vw;
+}
+
+.Pgraf{
+  font-size: 1vw; /*1.3*/
+  /*font-family: 'Zilla Slab';*/ /*new*/
+  font-family: 'roboto slab';
+  font-weight: bold;
+  margin-top: 1vw; /*1*/
+  line-height: 1.8vw;
+  text-align: justify; /*new*/
+
+
+  text-size-adjust: none; 
+}
+
+
+.CT{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vw; /*new*/
+  border: solid;
+  /*width: 40vw;*/ /*isk*/
+  border-width: 0.2vw;
+}
+
+.CTSve{
+  display: flex;
+  justify-content: center;
+}
+
+.Smjesa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+  height: 20%;
+
+  font-size: 1vw;
+  font-family: 'Rubik';
+  /*font-weight: bold;*/
+}
+
+
+.Minerali{
+  border: solid;
+  border-width: 0.25vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.Naslov{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.6vw;
+  border-bottom: solid;
+  font-family: 'Rubik';
+  font-weight: bold;
+
+  border-bottom-width: 0.25vw;
+}
+.Raspodjela{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-bottom-width: 0.25vw;
+}
+
+.ImeMin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  font-family: 'rubik';
+  font-weight: bold;
+
+  border-right: solid;
+  border-right-width: 0.25vw;
+
+  width: 25%;
+}
+.FormulaMin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  font-family: 'rubik';
+  font-weight: bold;
+
+  width: 50%;
+}
+.PostotakEle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+  font-weight: bold;
+
+  border-left: solid;
+  border-left-width: 0.25vw;
+
+  width: 25%;
+}
+
+
+
+
+
+
+.ImeMinU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+
+
+  
+  font-size: 2vw;
+
+  border-right: solid;
+  border-width: 0.15vw;
+
+  width: 25%;
+}
+.FormulaMinU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+  font-weight: 200;
+  width: 50%;
+}
+/*.FormulaMinU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+  font-weight: 200;
+  width: 50%;
+}*/
+.PostotakEleU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'rubik';
+  font-weight: 200;
+
+  border-left: solid;
+  border-width: 0.15vw;
+
+  width: 25%;
+}
+/*.PostotakEleU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'rubik';
+  font-weight: 200;
+
+  border-left: solid;
+  border-width: 0.15vw;
+
+  width: 25%;
+}*/
+
+.RaspodjelaM{
+  display: flex;
+  justify-content: space-around;
+  border-top: solid;
+  border-top-width: 0.15vw;
+  
+}
+.RaspodjelaPrvi{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* test */
+
+.JedanRed{
+  display: flex;
+
+  /*border: solid;
+  border-width: 0.1vw;
+  border-color: blue;*/
+}
+/*.Str{
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  padding-right: 0.5vw;
+
+  /*border: solid;
+  border-width: 0.1vw;*/
+/*}*/ /*new*/
+.Str{
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+
+  /*border: solid;
+  border-width: 0.1vw;*/
+}
+.txt{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: 1vw; /*1.3*/
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+
+  /*border: solid;
+  border-width: 0.1vw;*/
+}
+
+.RaspodjelaNema{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+
+.Brojke{
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+
+.BrojUJednadzbi{
+  margin-bottom: -1vw;
+  font-size: 0.9vw;
+}
+
+.OznakaStanjaUJednadzbi{
+  margin-bottom: -0.5vw;
+  font-size: 0.9vw;
+}
+
+.StrManja{
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+}
+
+.txtBezAligna{
+  justify-content: left;
+  font-size: 1.3vw;
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+  margin-bottom: -0.2vw;
+
+  /*border: solid;
+  border-width: 0.1vw;*/
+}
+
+.StrManjaPodskup{
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+}
+
+.Razmak{
+  height: 1vw;
+}
+.Razmak2{
+  height: 0.35vw;
+}
+.Razmak3{
+  height: 0.15vw;
+}
+
+
+.Podatci11{
+  display: flex;
+  align-items: center;
+
+  font-size: 1vw;
+  font-family: 'Rubik';
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+}
+.P1,.P2,.P3,.P4,.P5,.P6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.P1{
+  width: 4.5vw;
+}
+.P2{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  border-left: solid;
+  border-left-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.P3{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.P4{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.P5{
+  width: 8vw;
+  height: 100%;
+  border-right: solid;
+  border-right-width: 0.15vw;
+}
+.P6{
+  width: 6vw;
+  font-size: 0.8vw;
+}
+
+.Podatci2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 0.85vw;
+  font-family: 'Rubik';
+  border-bottom: solid;
+  border-bottom-width: 0.1vw;
+  /*border: solid blue;
+  border-width: 0.1vw;*/
+}
+
+.P12,.P22,.P32,.P42,.P52,.P62{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 0.1vw;
+  /*border: solid red;
+  border-width: 0.1vw;*/
+  height: 1.5vw;
+}
+.P12{
+  width: 4.5vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+}
+.P22{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  /*border-left: solid;
+  border-left-width: 0.1vw;*/
+}
+.P32{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  /*font-size: 1.15vw;*/
+}
+.P42{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+}
+.P52{
+  width: 8vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+}
+.P62{
+  width: 6vw;
+}
+
+.Podatci2Dno{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 0.85vw;
+  font-family: 'Rubik';
+  border-bottom-width: 0.1vw;
+  /*border: solid blue;
+  border-width: 0.1vw;*/
+}
+
+.Stabilan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.2vw;
+  /*border-left: solid;
+  border-left-width: 0.1vw;*/
+  border-right: solid;
+  border-right-width: 0.15vw;
+  height: 1.5vw;
+}
+
+
+
+.prob{
+  color: royalblue;
+  text-shadow: 0.02vw 0.02vw black, -0.02vw 0.02vw black, 0.02vw -0.02vw black, -0.02vw -0.02vw black;
+}
+
+
+.HenryC{
+  height: 20vw;
+  border: solid;
+  border-radius: 1vw;
+  margin-right: 1vw;
+
+}
+.VodikTuba{
+  height: 20vw;
+  border: solid;
+  border-radius: 1vw;
+  margin-left: 2vw;
+}
+
+
+.Pd{
+  display: flex;
+  align-items: center;
+}
+.Skockica{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border: solid;
+  height: 1vw;
+  width: 1vw;
+}
+.Pkockica{
+  display: flex;
+  border: solid;
+  border-right: none; /*makni*/
+
+  height: 1vw;
+  width: fit-content;
+  margin-left: 0.2vw;
+}
+.Dkockica{
+  display: flex;
+  border: solid;
+  border-right: none;
+  height: 1vw;
+  width: fit-content;
+  margin-left: 0.2vw;
+}
+.Fkockica{
+  display: flex;
+  border: solid;
+  border-right: none;
+  height: 1vw;
+  width: fit-content;
+  margin-left: 0.2vw;
+}
+.Skockica,.Pkockica,.Dkockica,.Fkockica{
+  border-width: 0.15vw;
+}
+
+.ElekKonf{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+  font-size: 1vw;
+  height: 13vw;
+  align-items: center;
+}
+
+.BrojElek{
+  width: 0.8vw;
+  align-items: center;
+}
+
+.GSolo{
+  margin-right: 0.73vw;
+  margin-top: 0.1vw;
+  rotate: 270deg;
+  height: 0.5vw;
+  width: 1vw;
+}
+.GDuo{
+  margin-right: 0.45vw;
+  rotate: 270deg;
+  height: 0.5vw;
+  width: 1vw;
+}
+.DDuo{
+  margin-right: -0.7vw;
+  rotate: 90deg;
+  height: 0.5vw;
+  width: 1vw;
+}
+
+.NaslovElementa{
+  margin-top: 1vw;
+  display: flex;
+  font-size: 4vw;
+  color: black;
+  font-family: 'roboto slab';
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.OHenryju{
+  display: flex;
+  font-size: 0.85vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+  padding-top: 2vw;
+  width: 30vw;
+  text-align: justify;
+}
+
+.Sett{
+  display: flex;
+  font-family: 'roboto slab';
+  font-weight: bold;
+  margin-top: 1vw;
+  width: 90vw;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+}
+.right{
+  display: flex;
+  margin-left: -20vw;
+  align-items: end;
+}
+
+.OTubi{
+  /*display: flex;*/
+  font-size: 0.85vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+  padding-bottom: 2vw;
+  width: 30vw;
+  text-align: justify;
+}
+.Zajednica{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  height: 13vw;
+}
+.Opca{
+  font-size: 1.2vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+}
+.Svoj{
+  font-size: 1vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+}
+.Stva{
+  font-size: 1vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+}
+.VanjskaGrupacija{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.Grupacija{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+._{
+  display: flex;
+  align-items: center;
+}
+
+.Lijevo1{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 0.3vw;
+}
+.Desno1{
+  display: flex;
+  flex-direction: column;
+}
+
+.ObicnaNotacija{
+  height: 1.3vw;
+}
+.NotacijaPlemenitogPlina{
+  height: 1.6vw;
+}
+.SPDFNotacija{
+  display: flex;
+  flex-direction: column;
+}
+
+.ProzirneStrelice{
+  width: 1vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  border-color: black;
+  color: white;
+  height: 100%;
+}
+
+.Kucica{
+  width: 1vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+}
+
+.Minerali-Novo{
+  border: solid;
+  border-width: 0.15vw;
+  width: 80vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.Naslov-Novo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vw;
+  font-size: 1.5vw;
+  border-bottom: solid;
+  /*font-family: 'Rubik';*/
+  font-family: 'roboto slab';
+  font-weight: bold;
+
+  border-bottom-width: 0.15vw;
+}
+.Raspodjela-Novo{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-bottom-width: 0.15vw;
+}
+.ImeMin-Novo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+  /*font-family: 'rubik';*/
+  font-family: 'roboto slab';
+  font-weight: bold;
+
+  border-right: solid;
+  border-right-width: 0.15vw;
+
+  width: 25%;
+}
+.FormulaMin-Novo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+  /*font-family: 'rubik';*/
+  font-family: 'roboto slab';
+  font-weight: bold;
+
+  width: 60%;
+}
+.PostotakEle-Novo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  /*font-family: 'Rubik';*/
+  font-family: 'roboto slab';
+  font-weight: bold;
+
+  border-left: solid;
+  border-left-width: 0.15vw;
+
+  width: 15%;
+}
+.ImeMinU-Novo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  /*font-family: 'Rubik';*/
+  font-family: 'rubik';
+  border-right: solid;
+  border-width: 0.1vw;
+  font-weight: 300;
+  width: 25%;
+}
+.FormulaMinU-Novo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  /*font-family: 'Rubik';*/
+  font-family: 'rubik';
+  width: 60%;
+}
+.PostotakEleU-Novo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  /*font-family: 'rubik';*/
+  font-family: 'rubik';
+
+  border-left: solid;
+  border-width: 0.1vw;
+
+  width: 15%;
+}
+.RaspodjelaM-Novo{
+  display: flex;
+  border-top: solid;
+  border-top-width: 0.1vw;
+  
+}
+.RaspodjelaM-Novo2{
+  display: flex;
+  border-top: solid;
+  border-top-width: 0.1vw;
+  background-color: rgba(18, 99, 230, 0.149);
+}
+.RaspodjelaPrvi-Novo{
+  display: flex;
+}
+
+
+
+
+
+.Tablica{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  border: solid;
+  border-width: 0.2vw;
+}
+
+.NaslovTablica{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  font-family: 'Rubik';
+  width: 100%;
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+}
+.PodatciPodnaslov{
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: solid;
+  border-bottom-width: 0.15vw;
+}
+.Podnaslov1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  border-right: solid;
+  border-right-width: 0.15vw;
+  width: 4vw;
+}
+.Podnaslov2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  border-right: solid;
+  border-right-width: 0.15vw;
+  width: 6vw;
+}
+.Podnaslov3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  border-right: solid;
+  border-right-width: 0.15vw;
+  width: 6vw;
+}
+.Podnaslov4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  border-right: solid;
+  border-right-width: 0.15vw;
+  width: 6vw;
+}
+.Podnaslov5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  border-right: solid;
+  border-right-width: 0.15vw;
+  width: 6vw;
+}
+.Podnaslov6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  width: 6vw;
+}
+.UžaTablica{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Redak{
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid;
+  border-bottom-width: 0.1vw;
+}
+.Podatak1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  width: 4vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.Podatak2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.Podatak3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.Podatak4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.Podatak5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.15vw;
+  font-size: 0.8vw;
+}
+.Podatak6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  width: 6vw;
+  font-size: 0.8vw;
+  
+}
+.StabilanPodatak{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  border-right: solid;
+  border-right-width: 0.15vw;
+  width: 18.21vw;
+  font-size: 0.8vw;
+}
+
+.NajvažnijiSpojevi{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  border: solid;
+  border-width: 0.15vw;
+  margin-top: 1vw;
+}
+.NajvažnijiSpojeviNaslov{
+  display: flex;
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-family: 'roboto slab';
+  justify-content: center;
+  margin: 1vw;
+}
+
+.Spoj{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.SpojPočetak{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5vw;
+  padding-top: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.SpojKraj{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.LK{
+  display: flex;
+  font-family: 'roboto slab';
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+.StrManja{
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+}
+.Str{
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+}
+.txt{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: 1vw; /*1.3*/
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+}
+
+.TekstSpojeva{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1vw;
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 1vw;
+  text-align: justify;
+  align-items: start;
+  margin-top: 0.3vw;
+}
+.TekstPodnaslova{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: 1vw; /*1.3*/
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+}
+.TekstKoristi{
+  font-size: 1vw; 
+  font-family: 'roboto slab'; 
+  text-align: justify;
+  padding-right: 1vw; 
+  /*padding-top: 0.2vw; */
+  padding-left: 0.5vw; 
+  line-height: 1.5vw;
+}
+
+.Redic{
+  display: flex;
+  padding-left: 2.5vw;
+}
+.RedicPodnaslov{
+  display: flex;
+  padding-left: 1vw;
+  font-weight: bold;
+}
+
+.StrKorist{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.StrNapraviti{
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+  font-weight: bold;
+}
+
+.SubSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.25vw;
+}
+.SupSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  bottom: 0.25vw;
+}
+
+.FormulaPodnaslova{
+  padding-left: 0.1vw;
+  padding-right: 0.1vw;
+}
+
+.SubSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.45vw;
+}
+.SubSetFor{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.6vw;
+  top: 0.45vw;
+}
+.SupSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  bottom: 0.2vw;
+}
+
+.TekstKoristiwSpoj{
+  display: flex;
+  flex-direction: row;
+  font-size: 1vw; 
+  font-family: 'roboto slab'; 
+  text-align: justify;
+  padding-right: 1vw; 
+  /*padding-top: 0.2vw; */
+  padding-left: 0.5vw; 
+  line-height: 1.5vw;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Test{
+  display: flex;
+  align-items: center;
+  margin-right: -0.5vw;
+  margin-top: 0.1vw;
+  font-weight: bold;
+  rotate: -90deg;
+  
+}
+.Test2{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  rotate: 90deg;
+  margin-right: -0.2vw;
+  
+}
+
+.KucicaPredset{
+  display: flex;
+  border: none;
+}
+
+.KucicaPredsetP{
+  display: flex;
+  margin-left: -0.3vw;
+  margin-top: -0.25vw;
+}
+
+.SpojSpoj{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-left: 1vw;
+  display: flex; 
+  height: 100%;
+  justify-content: center;
+}
+
+
+.Zahvala{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'roboto slab';
+  font-size: 1vw;
+  font-weight: bold;
+  border-top: solid;
+  border-top-width: 0.2vw;
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+  width: 100%;
+  background-color: royalblue;
+  height: 4vw;
+  margin-bottom: 2vw;
+}
+/*
+.Nazad{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 0.2vw;
+}
+dec-none
+*/
+
+.Gumb-Element{
+  border: none;
+  font-family: 'roboto slab';
+  font-size: 0.9vw;
+  font-weight: bold;
+  color: black;
+  background-color: royalblue;
+  text-decoration: underline;
+}
+.Gumb-Element:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Element:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+/*
+.Gumb-Nazad{
+  font-family: 'Rubik';
+  display: flex;
+  border: none;
+  margin-left: 1.5vw;
+  width: 100%;
+  height: 3.5vw;
+  font-size: 1.7vw;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+}
+.Gumb-Nazad:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Nazad:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+*/
+
+.ImeMinU{
+  font-size: 1.5vw;
+  font-family: 'rubik';
+}

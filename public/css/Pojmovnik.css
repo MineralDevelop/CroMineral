@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Rubik:wght@500&display=swap');
+.Pojam{
+  font-family: 'roboto slab';
+  font-weight: 400;
+  font-size: 1vw;
+  margin-top: 0.8vw;
+  width: 100%;
+  text-align: justify;
+}
+.Settt{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.Subkat{
+  margin-top: 1vw;
+  font-size: 1.8vw;
+}
+.SubSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.25vw;
+}
+.SupSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  bottom: 0.25vw;
+}
+.SubSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.35vw;
+}
+.SubSet3{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.6vw;
+}
+.SubSet4{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
+  top: 0.45vw;
+}

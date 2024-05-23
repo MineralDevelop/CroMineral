@@ -1,0 +1,90 @@
+.OKV{
+  width: 12vw;
+  height: 20vw;
+}
+
+.SLKa{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: solid 0.2vw;
+}
+
+.OIS{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.OISR{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.DaG{
+  display: flex;
+  justify-content: right;
+}
+.DaL{
+  display: flex;
+  justify-content: left;
+}
+.OZnanstveniku{
+  font-family: 'rubik';
+  font-size: 1vw;
+  display: flex;
+  justify-content: left;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.OZnanstvenikuR{
+  font-family: 'rubik';
+  font-size: 1vw;
+  display: flex;
+  justify-content: left;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.OOtkrio{
+  width: 25%;
+  font-family: 'rubik';
+  font-size: 1vw;
+  display: flex;
+  justify-content: left;
+  padding-left: 1vw;
+  padding-top: 1vw;
+}
+
+.OIzolirao{
+  width: 25%;
+  font-family: 'rubik';
+  font-size: 1vw;
+  display: flex;
+  justify-content: left;
+  padding-left: 1vw;
+  padding-top: 1vw;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.ime,.preb{
+  display: flex;
+  justify-content: right;
+  text-align: end;
+}

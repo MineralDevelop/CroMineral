@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+.Linking{
+  height: 1.8vw;
+  margin-right: 1vw;
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+.PreLinking{
+  display: flex;
+  align-items: center;
+  font-size: 0.8vw;
+  background-color: rgb(51, 51, 51);
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+.AAutor{
+  color: white;
+  font-size: 1vw;
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+.TText{
+  color: white;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  font-weight: 300;
+}
+.TTText{
+  color: white;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+.ObjasnjenaSet{
+  width: 50%;
+  height: 10vw;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+.Podnožje{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1vw 0;
+  background-color: rgb(51, 51, 51);
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+.Prozorce{
+  width: 25%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+@media(max-width: 991px){
+  .PreLinking{
+    font-size: 1.8vw;
+    text-size-adjust: none;
+    font-family: 'Rubik';
+    font-weight: bold;
+  }
+  .Linking{
+    height: 5.2vw;
+  }
+  .AAutor{
+    font-size: 1.8vw;
+    text-size-adjust: none;
+    font-family: 'Rubik';
+    font-weight: bold;
+  }
+  .TText{
+    font-size: 1.6vw;
+    text-size-adjust: none;
+    font-family: 'Rubik';
+    font-weight: bold;
+  }
+  .ObjasnjenaSet{
+    height: 25vw;
+    font-family: 'Rubik';
+    font-weight: bold;
+  }
+  .Prozorce{
+    width: 30%;
+    font-family: 'Rubik';
+    font-weight: bold;
+  }
+}

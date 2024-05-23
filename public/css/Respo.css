@@ -1,0 +1,775 @@
+
+@media(min-width: 992px)
+      {
+        
+        .Grupacija{
+          flex-direction: row;
+          width: 90vw;
+        }
+        
+        .IzPSEMetal{
+          width: 15vw;
+          height: 15vw;
+        }
+        .IzPSENemetal{
+          width: 15vw;
+          height: 15vw;
+        }
+        .IzPSEPolumetal{
+          width: 15vw;
+          height: 15vw;
+        }
+        .AtomskiBroj{
+          font-size: 2.6vw;
+        }
+        .Simbol{
+          font-size: 6.3vw;
+        }
+        .Simbol-Plin{
+          font-size: 6.3vw;
+        }
+        .Simbol-Tekucina{
+          font-size: 6.3vw;
+        }
+        .Ime{
+          font-size: 2.3vw;
+        }
+        .Relativna{
+          font-size: 2.6vw;
+        }
+        
+        .OPCEINFO{
+          height: fit-content;
+          width: fit-content;
+          
+        }
+        .OST{
+          font-size: 1.3vw;
+          border-top: solid 0.01vw;
+        }
+        .Smb{
+          font-size: 1.3vw;
+        }
+        .OSTA{
+          font-size: 1.3vw;
+          border-top: solid 0.01vw;
+        }
+        .SmbA{
+          font-size: 1.3vw;
+        }
+        .PSEOPCE{
+          width: 40vw;
+          justify-content: space-between;
+        }
+        .OPCENASLOV{
+          font-size: 1.3vw;
+        }
+        .Table{
+          width: 40vw;
+          margin-top: 1vh;
+          font-family: 'Rubik';
+          border: solid 0.2vw;
+        }
+        .SupSet2{
+          font-size: 0.7vw;
+        }
+        .SubSet2{
+          font-size: 0.7vw;
+        }
+        .Tabla2{
+          width: 50%;
+          font-family: 'Rubik';
+          border: solid 0.2vw;
+        }
+        .Dvadeset{
+          font-size: 1vw;
+          padding: 0.1vw 0.2vw;
+        }
+        
+        .Deset{
+          font-size: 1vw;
+          padding: 0.1vw 0.2vw;
+          
+        }
+        .tst{
+          font-size: 1vw;
+        }
+        .tstS{
+          font-size: 1.2vw;
+        }
+        .tstNema{
+          font-size: 1vw;
+        }
+        .DD{
+          
+          height: 1vw;
+        }
+        .Pgraf{
+          font-size: 1vw;
+        }
+        .SPDFNASLOV{
+          display: flex;
+          justify-content: center;
+        }
+        
+      }
+      @media(max-width: 1399px)
+      {
+
+      }
+      @media(max-width: 1199px)
+      {
+
+      }
+      @media(max-width: 991px)
+      {
+        .Te1,.Te2{
+          font-size: 2vw;
+        } 
+        .Sl1{
+          height: 50vh;
+          width: 30vw;
+          border: solid 0.5vw;
+        }
+        .Sl2{
+          height: 40vh;
+          width: 40vw;
+          border: solid 0.5vw;
+        }
+        .Okv{
+          height: 40vh;
+          width: 50vw;
+        }
+        .Gumbek{
+          font-size: 3vw;
+          padding: 1vw 3vw;
+          border-width: 0.3vw;
+        }
+        .SpojSpoj{
+          align-items: start;
+        }
+        .SPDFNASLOV{
+          display: flex;
+          margin-bottom: -3vw;
+          justify-content: center;
+          font-size: 2.5vw;
+        }
+        .NZD{
+          font-size: 2vw;
+          height: 40vw;
+          width: 3.5vw;
+
+        }
+        
+        .DDDDD{
+          font-size: 2.5vw;
+        }
+        .DDDD{
+          font-size: 2.5vw;
+          margin-bottom: 2vw;
+        }
+        .DDD{
+          margin-bottom: 3vw;
+          height: 10vw;
+          justify-content: space-between;
+        }
+        .IzPSEMetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .IzPSENemetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .IzPSEPolumetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .AtomskiBroj{
+          font-size: 6vw;
+        }
+        .Simbol{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Simbol-Plin{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Simbol-Tekucina{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Ime{
+          font-size: 5.7vw;
+        }
+        .Relativna{
+          font-size: 6vw;
+        }
+        .OPCEINFO{
+          height: fit-content;
+          width: fit-content;
+          
+        }
+        .OST{
+          font-size: 2.3vw;
+          border-top: solid 0.01vw;
+        }
+        .Smb{
+          font-size: 2.3vw;
+        }
+        .OSTA{
+          font-size: 2.3vw;
+          border-top: solid 0.01vw;
+        }
+        .SmbA{
+          font-size: 2.3vw;
+        }
+        .Grupacija{
+          flex-direction: column;
+        }
+        .PSEOPCE{
+          width: 90vw;
+          justify-content: space-between;
+          
+        }
+        .OPCENASLOV{
+          font-size: 2.3vw;
+        }
+        .Table{
+          width: 90vw;
+          margin-top: 1vh;
+          font-family: 'Rubik';
+          border: solid 0.5vw;
+          
+        }
+        .SupSet2{
+          font-size: 1.2vw;
+        }
+        .SubSet2{
+          font-size: 1.5vw;
+        }
+        .Tabla2{
+          width: 40%;
+          font-family: 'Rubik';
+          border: solid 0.5vw;
+          
+        }
+        
+        .Pgraf{
+          font-size: 2.3vw;
+          line-height: 3.2vw;
+          margin-top: 2vw;
+        }
+        .Dvadeset{
+          font-size: 2vw;
+        }
+        .Deset{
+          font-size: 2vw;
+        }
+        .tst{
+          font-size: 2vw;
+        }
+        .tstNema{
+          font-size: 2vw;
+        }
+        .OTubi, .OHenryju{
+          font-size: 2.2vw;
+          width: max-content;
+          text-size-adjust: none;
+        }
+        .Sett{
+          flex-direction: column;
+        }
+        .left, .right{
+          width: 100%;
+        }
+        .right{
+          justify-content: right;
+          margin: 0;
+        }
+        .HenryC, .VodikTuba{
+          height: 35vw;
+        }
+        
+        .EKF{
+          display: flex;
+          flex-direction: column;
+        }
+        .SPDFNotacija{
+          display: flex;
+          align-items: center;
+        }
+        .EKONFKONF{
+            font-size: 3vw;
+            border-width: 0.3vw;
+            width: 50vw;
+        }
+        .Skockica{
+            height: 2.5vw;
+            width: 2.5vw;
+        }
+        .Pkockica{
+            height: 2.5vw;
+        }
+        .Dkockica{
+            height: 2.5vw;
+        }
+        .Fkockica{
+            height: 2.5vw;
+        }
+        .Nasslov{
+          font-size: 3vw;
+            border-width: 0.3vw;
+            width: 50vw;
+        }
+        .Test{
+            margin-right: -1.2vw;
+        }
+        .Test2{
+            margin-right: -0.6vw;
+        }
+        .KucicaPredsetP{
+            margin-left: -0.5vw;
+            margin-top: -0.45vw;
+        }
+        .Kucica{
+            width: 2.5vw;
+        }
+        .BrojElek{
+            margin-right: 1vw;
+        }
+        .PadS{
+            padding-left: 0.55vw;
+            padding-top: 2vw;
+        }
+        .PadP{
+            padding-left: 2vw;
+        }
+        .PadD{
+            padding-left: 3.7vw;
+        }
+        .PadF{
+            padding-left: 5.5vw;
+        }
+        .ElekKonf{
+          font-size: 2.5vw;
+          height: 60vw;
+          justify-content: space-between;
+          border: solid 0.5vw;
+        }
+        
+        .EKF{
+          height: 100%;
+          justify-content: space-around;
+        }
+        .TestRepo06{
+          margin-right: 0.6vw;
+        }
+        .TestRepo01{
+          margin-left: -0.1vw;
+        }
+        .NajvažnijiSpojeviNaslov{
+          font-size: 3vw;
+          border-width: 0.3vw;
+          margin: 0;
+        }
+        .NajvažnijiSpojevi{
+          border-width: 0.5vw;
+        }
+        .LK{
+          font-size: 2.4vw;
+               text-size-adjust: none;
+        }
+        .TekstPodnaslova, .StrManjaPodskup{
+          font-size: 2.2vw;
+              text-size-adjust: none;
+        }
+        .StrManjaPodskup{
+          padding-top: 0.4vw;
+              text-size-adjust: none;
+        }
+        .TekstKoristi{
+          font-size: 2.2vw;
+          line-height: 2.7vw;
+          text-size-adjust: none;
+          padding-top: 0vw;
+        }
+        
+        .TekstKoristiwSpoj{
+          font-size: 2.2vw;
+          line-height: 2.7vw;
+          text-size-adjust: none;
+          padding-top: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+        .Redic{
+          line-height: 3vw;
+        }
+        .SlikaStr{
+          height: 2vw;
+        }
+        .SlikaStr2{
+          height: 2vw;
+          padding-top: 0.6vw;
+        }
+        .TekstKoristiSF{
+          font-size: 2.2vw;
+          line-height: 2.7vw;
+          padding-bottom: 0.7vw;
+          flex-direction: column;
+              text-size-adjust: none;
+        }
+        
+        .StrKorist{
+          display: flex;
+          font-size: 2.2vw;
+          text-size-adjust: none;
+          border: solid;
+          height: 4vw;
+          align-items: start;
+        }
+        
+        .StrNapraviti{
+          font-size: 2.2vw;
+          padding-top: 0.3vw;
+          text-size-adjust: none;
+        }
+        .TekstSpojeva{
+          font-size: 2.2vw;
+          line-height: 2.7vw;
+          text-size-adjust: none;
+          padding-top: 0;
+          display: flex;
+          flex-direction: column;
+        }
+        .SupSet{
+          vertical-align: top;
+          position: relative;
+          font-size: 1.2vw;
+          top: -0.2vw;
+        }
+        .Minerali-Novo{
+          width: 90vw;
+          border-width: 0.5vw;
+        }
+        .PostotakEleU-Novo, .FormulaMinU-Novo, .ImeMinU-Novo{
+          font-size: 2.2vw;
+          text-size-adjust: none;
+          height: 3vw;
+        }
+        .FormulaMinU-Novo{
+          font-size: 2vw;
+        }
+        .ImeMin-Novo, .FormulaMin-Novo{
+          font-size: 2.4vw;
+          height: 4vw;
+        }
+        .PostotakEle-Novo{
+          height: 4vw;
+          font-size: 1.6vw;
+        }
+        .Naslov-Novo{
+          font-size: 2.6vw;
+          height: 4vw;
+        }
+        .Nazad{
+          height: 7vw;
+          display: flex;
+          align-items: center;
+        }
+        .Gumb-Nazad{
+          font-size: 4vw;
+        }
+        .Zahvala{
+          height: 12vw;
+        }
+        .ZahvalaT{
+          display: table-cell;
+          text-align: center;
+          font-size: 2.2vw;
+        }
+        .Gumb-Element{
+          font-size: 1vw;
+          text-decoration: none;
+        }
+        .Imee,.Formulaa,.Postotakk{
+          font-size: 1.8vw;
+        }
+        
+        .SubSet2{
+          top: 0.40vw;
+          font-size: 1.2vw;
+        }
+        .SubSet3{
+          top: 1.6vw;
+          font-size: 1.4vw;
+        }
+        .Tabla{
+          width: 100%;
+          border: none;
+        }
+        .Medju{
+          width: 90vw;
+          border: solid 0.5vw;
+          box-sizing: border-box;
+          margin-top: 1vw;
+        }
+        .SubSet4{
+          top: 0.8vw;
+          font-size: 1.2vw;
+        }
+        
+        .GlNas{
+          font-size: 2.2vw;
+        }
+        .PodNI,.PodNF,.PodNP{
+          font-size: 2vw;
+          padding: 0.5vw 0vw;
+        }
+        .SS{
+          font-size: 1.2vw;
+          padding: 0;
+        }
+        .SL{
+          font-size: 1.2vw;
+          padding: 0;
+        }
+        .TText{
+          font-size: 1.5vw;
+          font-weight: 400;
+        }
+        .TTText{
+          font-size: 1.5vw;
+          font-weight: 550;
+        }
+        .Boix{
+          margin-bottom: 3vw;
+        }
+        .Tan{
+          font-size: 1.6vw;
+          line-height: 2vw;
+        }
+        .Ops{
+          font-size: 1.6vw;
+          line-height: 2vw;
+        }
+        .TekstPodnaslova{
+          font-size: 1.8vw;
+          line-height: 2.5vw;
+        }
+        .Sl1{
+          height: 40vw;
+        }
+        .Okv{
+          height: 40vw;
+        }
+        .Sl2{
+          height: 40vw;
+        }
+      }
+
+
+
+      @media(max-width: 767px)
+      {
+        .IzPSEMetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .AtomskiBroj{
+          font-size: 6vw;
+        }
+        .Simbol{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Ime{
+          font-size: 5.7vw;
+        }
+        .Relativna{
+          font-size: 6vw;
+        }
+        .OPCEINFO{
+          height: fit-content;
+          width: fit-content;
+          
+        }
+        .OST{
+          font-size: 2.3vw;
+          border-top: solid 0.01vw;
+        }
+        .Smb{
+          font-size: 2.3vw;
+        }
+        .OSTA{
+          font-size: 2.3vw;
+          border-top: solid 0.01vw;
+        }
+        .SmbA{
+          font-size: 2.3vw;
+        }
+        .Grupacija{
+          flex-direction: column;
+        }
+        .PSEOPCE{
+          width: 90vw;
+          justify-content: space-between;
+          
+        }
+        .OPCENASLOV{
+          font-size: 2.3vw;
+        }
+        .Table{
+          width: 90vw;
+          margin-top: 1vh;
+          font-family: 'Rubik';
+          border: solid 0.5vw;
+          
+        }
+        .SupSet2{
+          font-size: 1.2vw;
+        }
+        .SubSet2{
+          font-size: 1.2vw;
+        }
+        .Tabla2{
+          width: 40%;
+          font-family: 'Rubik';
+          border: solid 0.5vw;
+          
+        }
+        .Pgraf{
+          font-size: 2.2vw;
+          line-height: 3vw;
+          margin-top: 2vw;
+        }
+        .Dvadeset{
+          font-size: 2vw;
+        }
+        .Deset{
+          font-size: 2vw;
+        }
+        .tst{
+          font-size: 2vw;
+        }
+        .tstNema{
+          font-size: 2vw;
+        }
+      }
+
+
+
+      @media(max-width: 575px)
+      {
+        .IzPSEMetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .AtomskiBroj{
+          font-size: 6vw;
+        }
+        .Simbol{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Ime{
+          font-size: 5.7vw;
+        }
+        .Relativna{
+          font-size: 6vw;
+        }
+        .OPCEINFO{
+          height: fit-content;
+          width: fit-content;
+          
+        }
+        .OST{
+          font-size: 2.3vw;
+          border-top: solid 0.01vw;
+        }
+        .Smb{
+          font-size: 2.3vw;
+        }
+        .OSTA{
+          font-size: 2.3vw;
+          border-top: solid 0.01vw;
+        }
+        .SmbA{
+          font-size: 2.3vw;
+        }
+        .Grupacija{
+          flex-direction: column;
+        }
+        .PSEOPCE{
+          width: 90vw;
+          justify-content: space-between;
+          
+        }
+        .OPCENASLOV{
+          font-size: 2.3vw;
+        }
+        .Table{
+          width: 90vw;
+          margin-top: 1vh;
+          font-family: 'Rubik';
+          border: solid 0.5vw;
+          
+        }
+        .SupSet2{
+          font-size: 1.2vw;
+        }
+        .SubSet2{
+          font-size: 1.2vw;
+        }
+        .Tabla2{
+          width: 40%;
+          font-family: 'Rubik';
+          border: solid 0.5vw;
+          
+        }
+        .Pgraf{
+          font-size: 2.2vw;
+          line-height: 3vw;
+          margin-top: 2vw;
+        }
+        .Dvadeset{
+          font-size: 2vw;
+        }
+        .Deset{
+          font-size: 2vw;
+        }
+        .tst{
+          font-size: 2vw;
+        }
+        .tstNema{
+          font-size: 2vw;
+        }
+      }
+
+
+      th,td {
+        font-size: 1vw;
+        border-top: solid 0.1vw;
+        border-right: solid 0.1vw;
+        border-left: solid 0.1vw;
+        text-align: center;
+        width: 16.6%;
+      }
+      td{
+        padding: 0.5vw 0;
+      }
+
+      .Nema{
+        border-right: 0;
+        border-left: 0;
+      }
+
+      

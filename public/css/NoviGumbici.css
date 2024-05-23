@@ -1,0 +1,648 @@
+/* glowing button 3 */
+.glowing-button3 {
+  margin: 10px;
+  position: relative;
+  /*background-color: royalblue;
+  box-shadow: 0 0 20px 0 royalblue;*/
+  border: 2px solid #b026ff;
+  padding: 0.55vw 1.5vw;
+  background-color: transparent;
+  transition: .4s;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.glowing-button3::before {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: 0;
+  width: 1vw;
+  height: 0.25vw;
+  top: -5px;
+  left: 1vw;
+  
+  background-color: #454545;
+}
+
+.glowing-button3::after {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: 0;
+  width: 1vw;
+  height: 0.30vw;
+  bottom: -5px;
+  right: 1vw;
+  background-color: #454545;
+}
+
+.glowing-button3:hover {
+  background-color: #e1e1e8;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 #e1e1e8;
+  border-color: #b026ff;
+}
+
+.glowing-button3:hover::before {
+  left: calc(100% - 2.6vw);
+  width: 35px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+.glowing-button3:hover::after {
+  right: calc(100% - 2.6vw);
+  width: 35px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+/*Glowingbutton Middle*/
+.glowing-button3-Middle {
+  margin: 10px;
+  position: relative;
+  /*background-color: royalblue;
+  box-shadow: 0 0 20px 0 royalblue;*/
+  border: 2px solid #b026ff;
+  padding: 0.55vw 1.5vw;
+  background-color: transparent;
+  transition: .4s;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.glowing-button3-Middle::before {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 1vw;
+  height: 0.2vw;
+  top: -5px;
+  left: 0.8vw;
+  
+  background-color: #454545;
+}
+
+.glowing-button3-Middle::after {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 1vw;
+  height: 0.25vw;
+  bottom: -5px;
+  right: 0.8vw;
+  background-color: #454545;
+}
+
+.glowing-button3-Middle:hover {
+  background-color: #e1e1e8;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 #e1e1e8;
+  border-color: #b026ff;
+}
+
+.glowing-button3-Middle:hover::before {
+  left: calc(100% - 2.1vw);
+  width: 30px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+.glowing-button3-Middle:hover::after {
+  right: calc(100% - 2.1vw);
+  width: 30px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+
+/*Glowingbutton short*/
+.glowing-button3-Short {
+  margin: 10px;
+  position: relative;
+  /*background-color: royalblue;
+  box-shadow: 0 0 20px 0 royalblue;*/
+  border: 2px solid #b026ff;
+  padding: 0.55vw 1.5vw;
+  background-color: transparent;
+  transition: .4s;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.glowing-button3-Short::before {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 0.5vw;
+  height: 0.2vw;
+  top: -5px;
+  left: 0.7vw;
+  
+  background-color: #454545;
+}
+
+.glowing-button3-Short::after {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 0.5vw;
+  height: 0.25vw;
+  bottom: -5px;
+  right: 0.7vw;
+  background-color: #454545;
+}
+
+.glowing-button3-Short:hover {
+  background-color: #e1e1e8;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 #e1e1e8;
+  border-color: #b026ff;
+}
+
+.glowing-button3-Short:hover::before {
+  left: calc(100% - 2vw);
+  width: 25px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+.glowing-button3-Short:hover::after {
+  right: calc(100% - 2vw);
+  width: 25px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+/* 4 */
+.glowing-button4 {
+  margin: 10px;
+  position: relative;
+  /*background-color: royalblue;
+  box-shadow: 0 0 20px 0 royalblue;*/
+  border: 2px solid #b026ff;
+  padding: 0.55vw 1.5vw;
+  background-color: transparent;
+  transition: .4s;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.glowing-button4::before {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: 0;
+  width: 1.2vw;
+  height: 0.4vw;
+  top: -5px;
+  left: 1vw;
+  
+  background-color: #454545;
+}
+
+.glowing-button4::after {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: 0;
+  width: 1.2vw;
+  height: 0.45vw;
+  bottom: -5px;
+  right: 1vw;
+  background-color: #454545;
+}
+
+.glowing-button4:hover {
+  background-color: #e1e1e8;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 #e1e1e8;
+  border-color: #b026ff;
+}
+
+.glowing-button4:hover::before {
+  left: calc(100% - 2.6vw);
+  width: 35px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+.glowing-button4:hover::after {
+  right: calc(100% - 2.6vw);
+  width: 35px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+/*Middle 4*/
+.glowing-button4-Middle {
+  margin: 10px;
+  position: relative;
+  /*background-color: royalblue;
+  box-shadow: 0 0 20px 0 royalblue;*/
+  border: 2px solid #b026ff;
+  padding: 0.55vw 1.5vw;
+  background-color: transparent;
+  transition: .4s;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.glowing-button4-Middle::before {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 1.2vw;
+  height: 0.4vw;
+  top: -5px;
+  left: 0.8vw;
+  
+  background-color: #454545;
+}
+
+.glowing-button4-Middle::after {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 1.2vw;
+  height: 0.45vw;
+  bottom: -5px;
+  right: 0.8vw;
+  background-color: #454545;
+}
+
+.glowing-button4-Middle:hover {
+  background-color: #e1e1e8;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 #e1e1e8;
+  border-color: #b026ff;
+}
+
+.glowing-button4-Middle:hover::before {
+  left: calc(100% - 2.1vw);
+  width: 30px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+.glowing-button4-Middle:hover::after {
+  right: calc(100% - 2.1vw);
+  width: 30px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+
+/*Glowingbutton short*/
+.glowing-button4-Short {
+  margin: 10px;
+  position: relative;
+  /*background-color: royalblue;
+  box-shadow: 0 0 20px 0 royalblue;*/
+  border: 2px solid #b026ff;
+  padding: 0.55vw 1.5vw;
+  background-color: transparent;
+  transition: .4s;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  z-index: 0;
+  font-weight: bold;
+}
+
+.glowing-button4-Short::before {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 0.75vw;
+  height: 0.4vw;
+  top: -5px;
+  left: 0.7vw;
+  
+  background-color: #454545;
+}
+
+.glowing-button4-Short::after {
+  content: '';
+  width: 100%;
+  height: calc(50% + 1px);
+  background-color: #b026ff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #b026ff;
+  transition: .4s;
+  /*box-shadow: 0 0 20px 0 royalblue;*/
+  z-index: -1;
+  width: 0.75vw;
+  height: 0.45vw;
+  bottom: -5px;
+  right: 0.7vw;
+  background-color: #454545;
+}
+
+.glowing-button4-Short:hover {
+  background-color: #e1e1e8;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px 0 #e1e1e8;
+  border-color: #b026ff;
+}
+
+.glowing-button4-Short:hover::before {
+  left: calc(100% - 2vw);
+  width: 25px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+.glowing-button4-Short:hover::after {
+  right: calc(100% - 2vw);
+  width: 25px;
+  box-shadow: 0 0 5px 0 #b026ff;
+}
+
+
+
+
+
+@media screen and (max-width: 1399px) {
+  .glowing-button3, .glowing-button3-Middle, .glowing-button3-Short, .glowing-button4{
+    font-size: 1.2vh;
+    padding: 0.8vw 1.2vw;
+  }
+
+  
+  .glowing-button3-Middle::before,.glowing-button3-Middle::after{
+    width: 1.3vw;
+    height: 0.3vw;
+  }
+  .glowing-button3-Short::before,.glowing-button3-Short::after{
+    width: 0.5vw;
+    height: 0.3vw;
+  }
+  .glowing-button3::before,.glowing-button3::after{
+    width: 1.7vw;
+    height: 0.3vw;
+  }
+  .glowing-button4-Middle::before,.glowing-button4-Middle::after{
+    width: 1.3vw;
+    height: 0.3vw;
+  }
+  .glowing-button4-Short::before,.glowing-button4-Short::after{
+    width: 0.5vw;
+    height: 0.3vw;
+  }
+  .glowing-button4::after, .glowing-button4::before{
+    font-size: 1.2vh;
+    padding: 0.8vw 1.2vw;
+  }
+
+
+
+  .glowing-button3-Middle:hover::before{
+    left: calc(100% - 3vw);
+    width: 1.8vw;
+  }
+  .glowing-button3-Middle:hover::after{
+    right: calc(100% - 3vw);
+    width: 1.8vw;
+  }
+
+  .glowing-button3-Short:hover::before{
+    left: calc(100% - 2.8vw);
+    width: 1.5vw;
+  }
+  .glowing-button3-Short:hover::after{
+    right: calc(100% - 2.8vw);
+    width: 1.5vw;
+  }
+  
+  .glowing-button3:hover::before{
+    left: calc(100% - 4vw);
+    width: 2vw;
+  }
+  .glowing-button3:hover::after{
+    right: calc(100% - 4vw);
+    width: 2vw;
+  }
+
+  .glowing-button4-Middle:hover::before{
+    left: calc(100% - 3vw);
+    width: 1.8vw;
+  }
+  .glowing-button4-Middle:hover::after{
+    right: calc(100% - 3vw);
+    width: 1.8vw;
+  }
+
+  .glowing-button4-Short:hover::before{
+    left: calc(100% - 2.8vw);
+    width: 1.5vw;
+  }
+  .glowing-button4-Short:hover::after{
+    right: calc(100% - 2.8vw);
+    width: 1.5vw;
+  }
+
+  .glowing-button4:hover::before{
+    left: calc(100% - 4vw);
+    width: 2vw;
+  }
+  .glowing-button4:hover::after{
+    right: calc(100% - 4vw);
+    width: 2vw;
+  }
+}
+
+@media screen and (orientation:landscape){
+  .glowing-button3, .glowing-button3-Middle, .glowing-button3-Short{
+    font-size: 1.2vw;
+    padding: 0.4vw 1vw;
+  }
+  .glowing-button4, .glowing-button4-Middle, .glowing-button4-Short{
+    font-size: 1.2vw;
+    padding: 0.2vw 1vw;
+  }
+}
+
+.gumbac1{
+  margin: 0.5vw 0;
+  text-decoration: none;
+  border: solid orangered 0.2vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 0.3vw 1.5vw;
+  color: white;
+  transition: 0.5s;
+  border-radius: 0.5vw;
+}
+.gumbac1:hover{
+  background-color: orangered;
+  color: black;
+  box-shadow: 0 0 30px black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.gumbac1-mali{
+  text-decoration: none;
+  border: solid orangered 0.2vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 0.3vw 1vw;
+  color: white;
+  transition: 0.5s;
+  border-radius: 0.5vw;
+}
+.gumbac1-mali:hover{
+  background-color: orangered;
+  color: black;
+  transition: 0.5s;
+  box-shadow: 0 0 35px black;
+  cursor: pointer;
+}
+
+.gumbac1-srednji{
+  text-decoration: none;
+  border: solid orangered 0.2vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 0.3vw 1.3vw;
+  color: white;
+  transition: 0.5s;
+  border-radius: 0.5vw;
+}
+.gumbac1-srednji:hover{
+  background-color: orangered;
+  color: black;
+  transition: 0.5s;
+  box-shadow: 0 0 35px black;
+  cursor: pointer;
+}
+
+
+
+
+@media(max-width: 991px)
+{
+  .gumbac1{
+    font-size: 2.5vw;
+    padding: 0.5vw 2vw;
+    margin: 1.5vw 0;
+  }
+  .gumbac1-mali{
+    font-size: 2.5vw;
+    padding: 0.3vw 1.2vw;
+    margin: 1.5vw 0;
+  }
+  .gumbac1-srednji{
+    font-size: 2.5vw;
+    padding: 0.3vw 1.8vw;
+    margin: 1.5vw 0;
+  }
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 45%;
+  }
+}

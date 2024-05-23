@@ -1,0 +1,576 @@
+.Vodik{
+  color: #FFFFFF;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Litij{
+  color: #CC80FF;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Berilij{
+  color: #c2ff00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Helij{
+  color: #d9ffff;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Bor{
+  color: #ffb5b5;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Ugljik{
+  color: #909090;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Dušik{
+  color: #3050f8;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kisik{
+  color: #ff0d0d;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Fluor{
+  color: #90e050;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.NeoN{
+  color: #b3e3f5;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Natrij{
+  color: #ab5cf2;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Magnezij{
+  color: #8aff00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Aluminij{
+  color: #bfa6a6;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Silicij{
+  color: #f0c8a0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Fosfor{
+  color: #ff8000;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Sumpor{
+  color: #b1b100;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Klor{
+  color: #1ff01f;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Argon{
+  color: #80d1e3;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kalij{
+  color: #8f40d4;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kalcij{
+  color: #3dff00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Skandij{
+  color: #e6e6e6;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Titanij{
+  color: #bfc2c7;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Vanadij{
+  color: #a6a6ab;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Krom{
+  color: #8a99c7;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Mangan{
+  color: #9c7ac7;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Željezo{
+  color: #e06633;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kobalt{
+  color: #f090a0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Nikal{
+  color: #50d050;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Bakar{
+  color: #c88033;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Cink{
+  color: #7d80b0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Galij{
+  color: #c28f8f;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Germanij{
+  color: #668f8f;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Arsen{
+  color: #bd80e3;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Selenij{
+  color: #ffa100;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Brom{
+  color: #a62929;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kripton{
+  color: #5cb8d1;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Rubidij{
+  color: #702eb0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Stroncij{
+  color: #00ff00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Itrij{
+  color: #94ffff;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Cirkonij{
+  color: #94e0e0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Niobij{
+  color: #73c2c9;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Molidben{
+  color: #54b5b5;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Tehnecij{
+  color: #3b9e9e;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Rutenij{
+  color: #248f8f;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Rodij{
+  color: #0a7d8c;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Paladij{
+  color: #006985;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Srebro{
+  color: #c0c0c0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kadmij{
+  color: #ffd98f;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Indij{
+  color: #a67573;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Kositar{
+  color: #668080;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Antimon{
+  color: #9e63b5;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Telurij{
+  color: #d47a00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Jod{
+  color: #940094;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Ksenon{
+  color: #429eb0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Cezij{
+  color: #57178f;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Barij{
+  color: #00c900;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Lanlan{
+  color: #70d4ff;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Hafnij{
+  color: #4dc2ff;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Tantal{
+  color: #4da6ff;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Volfram{
+  color: #2194d6;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Renij{
+  color: #267dab;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Osmij{
+  color: #266696;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Iridij{
+  color: #175487;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Platina{
+  color: #d0d0e0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Zlato{
+  color: #ffd123;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Živa{
+  color: #b8b8d0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Talij{
+  color: #a6544d;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Olovo{
+  color: #575961;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Bizmut{
+  color: #9e4fb5;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Polonij{
+  color: #ab5c00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Astat{
+  color: #754f45;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Radon{
+  color: #428296;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+

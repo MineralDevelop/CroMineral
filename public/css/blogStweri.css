@@ -1,0 +1,209 @@
+body{
+  background-color: rgb(243, 242, 242);
+}
+
+.Mineralogija-moj-hobi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vw;
+  width: 100%;
+  background-color: rgb(243, 242, 242);
+  height: 7vw;
+  border-bottom-style: solid;
+  border-bottom-width: 0.2vw;
+}
+
+.Okvir-O-Blogu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.O-blogu{
+  text-size-adjust: none;
+  initial-letter: 3;
+  font-size: 1.5vw; /*2*/
+  margin: 1.75vw; /*2*/
+  margin-right: 0.5vw;
+  width: 100%; /*60*/
+  height: fit-content;
+  text-align: justify;
+  line-height: 2.7vw; /*3.5*/
+}
+.O-blogu::first-letter{
+  initial-letter: 2.15;
+  margin-right: 0.8vw;
+}
+
+.Slika-Uz-Blog{
+  display: flex;
+  width: 15vw; /*35*/
+  margin: 2vw; /*2*/
+  margin-bottom: 0;
+  height: 15vw; /*35*/
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: rgba(160, 0, 180, 1);
+  border-width: 0.35vw;
+  border-radius: 1.5vw; /*2*/
+}
+
+.Autor-I-Specimen{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Autor{
+  font-size: 1.1vw;
+  display: flex;
+  margin-right: 3vw;
+}
+
+.Specimen{
+  font-size: 1.1vw;
+  display: flex;
+  margin-left: 3vw;
+}
+
+.Pocetno-Slovo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+/*.naslovna
+  display: flex;
+  height: 600px;
+  width: 33%;
+  object-fit: cover;
+  object-position: bottom;
+  /*border-right: 3px;
+  border-right-style: solid;*/
+
+/* ------------------------------- Slike ------------------------------- */
+
+.SetSlika{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 1.75vw;
+  margin-right: 2vw;
+}
+
+.Slika1{
+  display: flex;
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: black;
+  border-width: 0.25vw;
+  border-radius: 1vw;
+}
+.Slika2{
+  display: flex;
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: black;
+  border-width: 0.25vw;
+  border-radius: 1vw;
+}
+.Slika3{
+  display: flex;
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: black;
+  border-width: 0.25vw;
+  border-radius: 1vw;
+}
+.Slika4{
+  display: flex;
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: black;
+  border-width: 0.25vw;
+  border-radius: 1vw;
+}
+.Slika5{
+  display: flex;
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: black;
+  border-width: 0.25vw;
+  border-radius: 1vw;
+}
+
+
+
+/* 2222222222222222222222222222222222222222222222222222 */
+
+
+.Pocetno-Slovo2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.Slika-Uz-Blog2{
+  display: flex;
+  width: 20vw; /*40*/
+  margin: 2vw; /*2*/
+  margin-bottom: 0;
+  height: 20vw; /*40*/
+  object-fit: cover;
+  object-position: center;
+  border: solid;
+  border-color: rgb(179, 179, 179);
+  border-width: 0.35vw;
+  border-radius: 1.5vw; /*2*/
+}
+
+.Okvir-O-Blogu2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.O-blogu2{
+  text-size-adjust: none;
+  initial-letter: 3;
+  font-size: 2vw; /*2*/
+  margin: 1.75vw; /*2*/
+  margin-left: 0.5vw;
+  width: 100%; /*52.5*/
+  height: fit-content;
+  text-align: justify;
+  line-height: 3.0625vw; /*3.5*/
+}
+.O-blogu2::first-letter{
+  initial-letter: 3;
+  margin-right: 1.5vw;
+}
+
+.Autor-I-Specimen2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Autor2{
+  font-size: 1.1vw;
+  display: flex;
+  margin-right: 3vw;
+}
+
+.Specimen2{
+  font-size: 1.1vw;
+  display: flex;
+  margin-left: 3vw;
+}

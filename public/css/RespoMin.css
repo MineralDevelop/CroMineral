@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@10;200;300;400;500;550;700&display=swap');
+body{
+  background-color: rgb(245, 245, 245);
+}
+.SubSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
+  top: 0.6vw;
+  font-weight: 600;
+  font-family: 'roboto slab';
+}
+
+.SubSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
+  top: 0.5vw;
+  font-weight: 600;
+  font-family: 'roboto slab';
+}
+.SupSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
+  bottom: 0;
+  font-weight: 600;
+  font-family: 'roboto slab';
+}
+table{
+  width: 12vw;
+}
+td{
+  width: 70%;
+  font-family: 'roboto slab';
+}
+.bold{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  margin-top: 0.2vw;
+  font-weight: 550;
+}
+.red{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  margin-top: 0.5vw;
+}
+.upozorenje{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  color: red;
+  font-weight: bold;
+}
+.L1{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  margin-top: 0.5vw;
+}
+.text{
+  font-size: 1vw;
+  font-family: 'roboto slab';
+}
+.textPOS{
+  font-size: 1vw;
+  font-family: 'roboto slab';
+  justify-content: end;
+  display: flex;
+}
+.textzamape{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+  font-family: 'roboto slab';
+}
+.boxmape{
+  width: 30%;
+}
+.Podnožje{
+  display: flex;
+  background-color: rgb(51, 51, 51);
+}
+.NaslovOtvaranje{
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 0.15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5vw;
+  letter-spacing: 1vw;
+  font-weight: 600;
+}
+.Slikica{
+  position: relative;
+  width: 50%;
+  height: 30vw;
+  margin: 0;
+  padding: 0;
+}
+
+.SSlika{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.OOpisSlike{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  height: 1.5vw;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+.UUzSliku{
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -1%);
+  color: white;
+  font-size: 1vw;
+  font-weight: 600;
+}
+.NaslovOCemu{
+  font-size: 2vw;
+  font-family: 'roboto slab';
+  font-weight: 700;
+}
+.Tekstic{
+  margin-top: 1vw;
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+}
+.TeksticVise{
+  margin: 0.5vw;
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+  margin-bottom: -1.2vw;
+}
+.MARGINA{
+  margin-left: 1vw;
+}
+.Prozorce{
+  width: 25%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.FizRed{
+  font-size: 1vw;
+  font-family: 'roboto slab';
+  font-weight: bold
+}
+.SvojstvoNaslov{
+  font-size: 1.4vw;
+  text-decoration: underline;
+  font-family: 'roboto slab';
+  font-weight: bold;
+}
+.SETsvojstva{
+  background-color: rgb(245, 245, 245);
+  padding: 1vw 5vw;
+}
+.SVAsvojstva{
+  display: flex;
+  width: 92vw;
+  font-size: 1.2vw;
+  border: solid;
+  padding: 0 1vw;
+  margin-top: 1vw;
+  justify-content: center;
+  margin-bottom: 1vw;
+}
+.DVAsvojstva{
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+.Podnožje{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1vw 0;
+}
+.Linking{
+  height: 1.8vw;
+  margin-right: 1vw;
+}
+.PreLinking{
+  display: flex;
+  align-items: center;
+  font-size: 0.8vw;
+  background-color: rgb(51, 51, 51);
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+.AAutor{
+  color: white;
+  font-size: 1vw;
+}
+.TText{
+  color: white;
+  font-size: 0.8vw;
+}
+.ObjasnjenaSet{
+  width: 50%;
+  height: 10vw;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+.FormSet{
+  font-size: 1vw;
+  font-family: 'roboto slab'
+}
+.ita{
+  font-family: 'roboto slab';
+}
+
+@media(max-width: 991px){
+  /*AHAT NOVI*/
+  .NaslovOtvaranje{
+    font-size: 7vw;
+    text-size-adjust: none;
+  }
+  .SetSlika{
+    width: 100%;
+  }
+  .GalSlika{
+    flex-direction: column;
+    width: 100%;
+  }
+  .SetSlika2{
+    height: 40vw;
+  }
+  .SSlika{
+    height: 40vw;
+  }
+  .OOpisSlike{
+    height: 2.5vw;
+    font-size: 1.5vw;
+    text-size-adjust: none;
+  }
+  .UUzSliku{
+    bottom: -30%;
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .NaslovOCemu{
+    font-size: 6vw;
+    text-size-adjust: none;
+  }
+  .Tekstic{
+    font-size: 3vw;
+    text-size-adjust: none;
+  }
+  .TeksticVise{
+    font-size: 2.3vw;
+    text-size-adjust: none;
+  }
+  .L1{
+    font-size: 3vw;
+    text-size-adjust: none;
+  }
+  .red{
+    font-size: 3vw;
+    text-size-adjust: none;
+  }
+  .upozorenje{
+    font-size: 3vw;
+    text-size-adjust: none;
+  }
+  .bold{
+    font-size: 3vw;
+    text-size-adjust: none;
+  }
+  .MARGINA{
+    margin-left: 2.3vw;
+  }
+  .SubSet{
+    font-size: 2vw;
+    text-size-adjust: none;
+    top: 1.6vw;
+  }
+  .SubSet2{
+    font-size: 1.4vw;
+    text-size-adjust: none;
+    top: 1vw;
+  }
+  .FormSet{
+    font-size: 1.8vw;
+    text-size-adjust: none;
+  }
+
+  .FizRed{
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .text{
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .textPOS{
+    font-size: 2.3vw;
+    text-size-adjust: none;
+  }
+  .SvojstvoNaslov{
+    font-size: 2.5vw;
+    text-size-adjust: none;
+  }
+  table{
+    width: 21vw;
+  }
+  .SVAsvojstva{
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+  .DVAsvojstva{
+    width: 100%;
+    justify-content: space-between;
+    
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    
+  }
+  .Samocentriranje{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: start;
+  }
+  .SupSet{
+    font-size: 1.4vw;
+    text-size-adjust: none;
+  }
+  .PreLinking{
+    font-size: 1.8vw;
+    text-size-adjust: none;
+  }
+  .Linking{
+    height: 5.2vw;
+  }
+  .AAutor{
+    font-size: 1.8vw;
+    text-size-adjust: none;
+  }
+  .TText{
+    font-size: 1.6vw;
+    text-size-adjust: none;
+  }
+  .ObjasnjenaSet{
+    height: 25vw;
+  }
+  .Prozorce{
+    width: 30%;
+  }
+}
+
+.contZa{
+  display: flex;
+  height: fit-content;
+}

@@ -1,0 +1,258 @@
+/* BOJE */
+
+.Zelena{
+  color: green;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Ljubičasta{
+  color: #A020F0;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SvijetloLjubičasta{
+  color: #cc92f8;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Crvena{
+  color: red;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Plava{
+  color: blue;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Roza{
+  color: fuchsia;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+              -0.03vw 0.03vw 0.05vw black,
+              0.03vw -0.03vw 0.05vw black,
+              -0.03vw -0.03vw 0.05vw black;
+}
+
+.Bezbojan{
+  color: rgba(255, 255, 255, 0.753);
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+  opacity: 0.4;
+}
+
+.Žuta{
+  color: yellow;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Narančasta{
+  color: orange;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Crna{
+  color: black;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Srebrna{
+  color: silver;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Siva{
+  color: gray;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.TamnoCrvena{
+  color: maroon;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SvijetloZelena{
+  color: lime;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Maslinasta{
+  color: olive;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.TamnoPlava{
+  color: navy;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SvijetloPlava{
+  color: aqua;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Smeđa{
+  color: #964B00;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Bijela{
+  color: white;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SrebrnoBijela{
+  color: #d1d1d1;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.MjednaŽuta{
+  color: #E1C16E;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.ZelenoCrna{
+  color: #00411c;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Zlatna{
+  color: gold;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.OlovnoSiva{
+  color: #5e5c59;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.CrvenoSmeđa{
+  color: #A52A2A;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SmeđeBijela{
+  color: #b49069;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.ZlatnoŽuta{
+  color: rgb(211, 211, 0);
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Šampanjac{
+  color: #F7E7CE;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.Žućkasta{
+  color: rgb(245, 245, 115);
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SvijetloŽuta{
+  color: rgb(245, 245, 115);
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.PlavoZelena{
+  color: #0D98BA;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}
+
+.SvijetloPlava2{
+  color: #c1d6ff;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black;
+}

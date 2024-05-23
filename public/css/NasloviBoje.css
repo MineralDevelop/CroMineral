@@ -1,0 +1,444 @@
+/* ---------------------------------------------- NASLOVI ---------------------------------------------- */
+
+/* ---------------------------------------------- Ahat ---------------------------------------------- */
+
+.AhatNaslovA{
+    color: maroon;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .AhatNaslovH{
+    color: red;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .AhatNaslovA2{
+    color: yellow;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .AhatNaslovT{
+    color: orange;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Akvamarin ---------------------------------------------- */
+  
+  .AkvamarinNaslov{
+    color: #7FFFD4;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+
+   /* ---------------------------------------------- Ametist ---------------------------------------------- */
+  
+   .AmetistNaslov{
+    color: #9966cc;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+
+  /* ---------------------------------------------- Angelit ---------------------------------------------- */
+  
+.AngelitNaslov{
+  color: #ABC0DB;
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black,
+               0.02vw 0.02vw 0.05vw black, 
+               0.04vw 0.04vw 0.05vw black,
+               0.06vw 0.06vw 0.05vw black,
+               0.08vw 0.08vw 0.05vw black,
+               0.1vw 0.1vw 0.05vw black, 
+               0.12vw 0.12vw 0.05vw black,
+               0.14vw 0.14vw 0.05vw black,
+               0.16vw 0.16vw 0.05vw black;
+}
+  
+  /* ---------------------------------------------- Mikroklin ---------------------------------------------- */
+  
+  .MikroklinNaslov{
+    color: #B88F7D;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Azurit ---------------------------------------------- */
+  
+  .AzuritNaslov{
+    color: #007FFF;
+    text-shadow: 0.03vw 0.03vw 0.05vw black,
+                -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Cijanit ---------------------------------------------- */
+  
+  .CijanitNaslov{
+    color: #5876b1;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .CijanitNaslovT{
+    color: #5876b1;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Bizmut ---------------------------------------------- */
+  
+  .BizmutNaslovB{
+    color: red;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .BizmutNaslovI{
+    color: orange;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .BizmutNaslovZ{
+    color: yellow;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .BizmutNaslovM{
+    color: green;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .BizmutNaslovU{
+    color: blue;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .BizmutNaslovT{
+    color: #A020F0;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Flogopit ---------------------------------------------- */
+  
+  .FlogopitNaslov{
+    color: #bdaa82;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Fluorit ---------------------------------------------- */
+  
+  .FluoritNaslovFLU{
+    color: #abffc7da;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .FluoritNaslovORIT{
+    color: #c176ffda;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Halkopirit ---------------------------------------------- */
+  
+  .HalkopiritNaslovHAL{
+    color: rgb(165, 0, 165);
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .HalkopiritNaslovKOPI{
+    color: rgb(0, 0, 168);
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  .HalkopiritNaslovRIT{
+    color: rgb(85, 0, 165);
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black,
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Hematit ---------------------------------------------- */
+  
+  .HematitNaslov{
+    color: #35435E;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+  
+  /* ---------------------------------------------- Pirit ---------------------------------------------- */
+  
+  .PiritNaslov{
+    color: #dfba18;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }
+
+/* ---------------------------------------------- Prozirac ---------------------------------------------- */
+  
+.ProziracNaslov{
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+               -0.03vw 0.03vw 0.05vw black,
+               0.03vw -0.03vw 0.05vw black,
+               -0.03vw -0.03vw 0.05vw black,
+               0.02vw 0.02vw 0.05vw black, 
+               0.04vw 0.04vw 0.05vw black,
+               0.06vw 0.06vw 0.05vw black,
+               0.08vw 0.08vw 0.05vw black,
+               0.1vw 0.1vw 0.05vw black, 
+               0.12vw 0.12vw 0.05vw black,
+               0.14vw 0.14vw 0.05vw black,
+               0.16vw 0.16vw 0.05vw black;
+}
+  
+  
+  /* ---------------------------------------------- Safir ---------------------------------------------- */
+  
+  .SafirNaslov{
+    color: #0F52BA;
+    text-shadow: 0.03vw 0.03vw 0.05vw black, 
+                 -0.03vw 0.03vw 0.05vw black,
+                 0.03vw -0.03vw 0.05vw black,
+                 -0.03vw -0.03vw 0.05vw black,
+                 0.02vw 0.02vw 0.05vw black, 
+                 0.04vw 0.04vw 0.05vw black,
+                 0.06vw 0.06vw 0.05vw black,
+                 0.08vw 0.08vw 0.05vw black,
+                 0.1vw 0.1vw 0.05vw black, 
+                 0.12vw 0.12vw 0.05vw black,
+                 0.14vw 0.14vw 0.05vw black,
+                 0.16vw 0.16vw 0.05vw black;
+  }

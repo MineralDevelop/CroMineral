@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+}
+
+body{
+  background-color: rgb(243, 243, 243); 
+}
+
+.Naslov{
+  background-color: rgb(243, 243, 243);
+  font-size: 4.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+  height: 8vw;
+}
+
+.Sve{
+  display: flex;
+  margin-top: -3vw;
+}
+
+.Okvir-Slike{
+  display: flex;
+  flex-direction: column;
+}
+.Slika{
+  display: flex;
+  margin: 2vw;
+  margin-bottom: 0.5vw;
+  margin-top: 5vw;
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3vw;
+  border: solid;
+  border-width: 0.17vw;
+}
+.Opis-Slike{
+  display: flex;
+  text-size-adjust: none;
+  width: 30vw;
+  font-size: 1vw;
+  margin-bottom: 2.5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+
+.Opis{
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  line-height: 3.2vw;
+}
+.Okvir-Opisa{
+  margin: 2vw;
+  margin-top: 5vw;
+  display: flex;
+}
+
+
+
+.Sva-Svojstva{
+  text-size-adjust: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 2vw;
+  margin: 1.6vw;
+  margin-top: 4.5vw;
+  text-decoration: underline;
+}
+.Svojstva{
+  text-size-adjust: none;
+  display: flex;
+  flex-direction: column;
+}
+.Fizicka-Svojstva{
+  height: fit-content; /* NEMA */
+  text-size-adjust: none;
+  line-height: 3.2vw; /*3.2*/
+  font-size: 1.6vw;
+  margin: 1.5vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.Boxx{
+  height: fit-content;
+}
+
+.Kutija{
+  height: fit-content; /* NEMA */
+  text-size-adjust: none;
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-around; /*space evenly*/
+}
+
+.Kristalografija{
+  text-size-adjust: none;
+  line-height: 3.2vw;
+  font-size: 1.6vw;
+  margin: 1.5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Paragraf{ /* izvana */
+  text-size-adjust: none;
+  display: flex;
+  line-height: 1.5vw;
+}
+.Pgraf{ /* iznutra */
+  text-size-adjust: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6vw;
+  margin-left: 1.6vw;
+}
+
+.Dno{
+  text-size-adjust: none;
+  font-size: 1.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 3vw;
+}
+
+.galerija{
+  text-decoration: underline;
+  color: blue;
+}
+.galerija:hover{
+  color: red;
+}
+.galerija:active{
+  color: black;
+}
+
+.Autor{
+  text-size-adjust: none;
+  font-size: 1.6vw;
+  display: flex;
+  justify-content: right;
+  margin-right: 4vw;
+  margin-top: 1vw;
+  padding-bottom: 7vw;
+}
+
+.A{
+  display: flex;
+  margin-bottom: -1.5vw;
+}
+.B{
+  display: flex;
+  margin-top: -0.5vw;
+}
+.BB{
+  display: flex;
+  
+}
+.BBB{
+  line-height: 2.2vw;
+  
+}
+
+.C{
+  display: flex;
+  
+}
+.CC{
+  
+  line-height: 2.2vw;
+}
+
+.D{
+  display: flex;
+  flex-direction: column;
+  /*border: solid;*/
+}
+.DD{
+  line-height: 2.2vw;
+}
+
+.E{
+  display: flex;
+  /*border: solid;*/
+}
+.EE{
+  line-height: 2.2vw;
+}
+
+.F{
+  display: flex;
+  /*border: solid;*/
+}
+.FF{
+  line-height: 2.2vw;
+}
+
+.G{
+  display: flex;
+  /*border: solid;*/
+}
+.GG{
+  line-height: 2.2vw;
+}
+
+.H{
+  display: flex;
+  /*border: solid;*/
+}
+.HH{
+  line-height: 2.2vw;
+}
+
+.I{
+  display: flex;
+  /*border: solid;*/
+}
+.II{
+  line-height: 2.2vw;
+}
+
+.J{
+  display: flex;
+  /*border: solid;*/
+}
+.JJ{
+  display: flex;
+  height: fit-content;
+  line-height: 2.2vw;
+}
+.JJJ{
+  margin-top: -0.5vw;
+}
+
+.A-J{
+  border: solid;
+  padding: 1vw;
+  border-width: 0.25vw;
+
+  height: fit-content; 
+  font-size: 1.6vw;
+  text-size-adjust: none; 
+}
+
+.CRT{
+  /*border: solid;
+  border-width: 0.15vw;*/
+  margin-top: 0.7vw;
+  margin-bottom: 0.7vw;
+}
+
+.B,.C,.D,.E,.F,.G,.H,.I,.J,.L,.M,.N,.O,.R,.S,.T,.U,.V,.Z{
+  /*border-left: solid;
+  border-right: solid;
+  border-width: 0.15vw*/
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+
+.K{
+  display: flex;
+  margin-bottom: -2vw;
+  
+}
+.L{
+  display: flex;
+  
+  margin-bottom: -0.5vw;
+}
+.LB{
+  display: flex;
+}
+.LL{
+  line-height: 2.2vw;
+}
+
+.M{
+  display: flex;
+  /*border: solid;*/
+}
+.MM{
+  line-height: 2.2vw;
+}
+
+.N{
+  display: flex;
+  /*border: solid;*/
+}
+.NN{
+  line-height: 2.2vw;
+}
+
+.O{
+  display: flex;
+  flex-direction: column;
+  /*border: solid;*/
+}
+.OO{
+  line-height: 2.2vw;
+}
+.OOO{
+  display: flex;
+  justify-content: space-between;
+}
+
+.K-O{
+  border: solid;
+  padding: 1vw;
+  border-width: 0.25vw;
+
+  height: fit-content; 
+  font-size: 1.6vw;
+  text-size-adjust: none; 
+}
+
+
+.P{
+  display: flex;
+  margin-bottom: -2vw;
+  /*border: solid;*/
+}
+
+.R{
+  display: flex;
+}
+.RR{
+  line-height: 2.2vw;
+}
+
+.S{
+  display: flex;
+  flex-direction: column;
+}
+.SS{
+  line-height: 2.2vw;
+}
+
+.T{
+  display: flex;
+  /*border: solid;*/
+}
+.TT{
+  display: flex;
+  height: fit-content;
+  line-height: 2.2vw;
+}
+.TTT{
+  margin-top: -0.5vw;
+}
+
+.U{
+  display: flex;
+}
+.UU{
+  line-height: 2.2vw;
+}
+
+.V{
+  display: flex;
+}
+.VV{
+  line-height: 2.2vw;
+}
+
+.Z{
+  display: flex;
+}
+.ZZ{
+  line-height: 2.2vw;
+}
+
+.P-Z{
+  border: solid;
+  padding: 1vw;
+  border-width: 0.25vw;
+
+  height: fit-content; 
+  font-size: 1.6vw;
+  text-size-adjust: none; 
+}
+
+/*
+height: fit-content; 
+text-size-adjust: none;
+line-height: 3.2vw; 
+font-size: 1.6vw;
+margin: 1.5vw;
+margin-bottom: 0;
+margin-top: 0;
+*/
