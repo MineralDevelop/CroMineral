@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elementi-Berilij</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/zaglavlje.css">
+    <link rel="stylesheet" href="/css/ElementiNovi11.css">
+    <link rel="stylesheet" href="/css/Podnozje.css">
+    <link rel="stylesheet" href="/css/Respo.css">
+    <link rel="stylesheet" href="/css/popup.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Rubik:wght@500&display=swap');
+      *{
+        box-sizing: content-box;
+      }
+      .dropdown-menu,.dropdown,.dropdown-item,.Lili,.btn,
+      .dropdown-menu::after,.dropdown::after,.dropdown-item::after,.Lili::after,.btn::after,
+      .dropdown-menu::before,.dropdown::before,.dropdown-item::before,.Lili::before,.btn::before{
+        box-sizing: border-box;
+        font-family: 'rubik';
+        font-weight: 600;
+      }
+      .btn{
+        font-weight: 300;
+      }
+     
+      
+
+      
+    </style>
+  </head>
+  <body>
+    
+    
+    <div class="ZGL" style="position: relative;">
+      <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center;"><a class="Alink" href="/index.html"><button class="Blink">MineralogijaHR</button></a></div>
+      <div style="margin-top: -0.2vw; display: flex; width: 100%; align-items: center; color: white; justify-content: center;"><div class="Mjestooo">&#8275; Mjesto gdje su svi minerali prirodni &#8275;</div></div>
+      <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center; justify-content: right; margin-right: 1.5vw;">
+        
+        
+  
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none;">
+            Menu
+          </button>
+          <ul class="dropdown-menu" style="height: fit-content;">
+            <li><a class="dropdown-item" href="/Minerali.html">Minerali</a></li>
+            <li><a class="dropdown-item" href="/Galerija.html">Galerija</a></li>
+            <li><a class="dropdown-item" href="/PSEtest.html">PSE</a></li>
+          </ul>
+        </div>
+        
+        
+      </div>
+    </div>
+
+    <div class="Sve">
+
+      <div>
+        <a href="/PSEtest.html">
+          <div class="NZD">Periodni sustav elemenata</div>
+        </a>
+      </div>
+
+      
+
+      <div class="VanjskaGrupacija">
+        <div class="Grupacija">
+
+          <div class="PSEOPCE">
+            <div class="IzPSEMetal"> <!--Promjeni-->
+              <div class="AtomskiBroj">4</div>
+              <div class="Simbol">Be</div>
+              <div class="Ime">Berilij</div>
+              <div class="Relativna">9,012</div>
+            </div>
+
+            <table class="Tabla2">
+              <tr class="DD"> <td class="Dvadeset">Simbol</td><td class="Deset">Be</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Broj protona</td><td class="Deset">4</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Broj elektrona</td><td class="Deset">4</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Broj neutrona</td><td class="Deset">5</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Agregatno stanje</td><td class="Deset">kruto</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Talište</td><td class="Deset">1287 °C</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Vrelište</td><td class="Deset">2470 °C</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Radioaktivan</td><td class="Deset">ne</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Umjetno dobiven</td><td class="Deset">ne</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Relativna atomska masa</td><td class="Deset">9,01218</td> </tr>
+            </table>
+           
+          </div>
+
+          
+
+
+          <table class="Table" >
+            <tr>
+              <th colspan="6" class="tst" style="height: 1.5vw; padding: 0.2vw;">Sastav izotopne smjese</th>
+            </tr>
+            <tr>
+              <th class="tst">Izotop</th>
+              <th class="tst">Vrijeme poluraspada</th>
+              <th class="tst">Vrsta poluraspada</th>
+              <th class="tst">Produkt poluraspada</th>
+              <th class="tst">U prirodi (%)</th>
+              <th class="tst">Radioaktivan</th>
+            </tr>
+            <tr>
+              <td class="tst"><sup class="SupSet2">7</sup>Be</td>
+              <td class="tst">53 dana</td>
+              <td class="tst">&epsilon;</td>
+              <td class="tst"><sup class="SupSet2">7</sup>Li</td>
+              <td class="tst">U tragovima</td>
+              <td class="tst">Da</td>
+            </tr>
+            <tr>
+              <td class="tst"><sup class="SupSet2">9</sup>Be</td>
+              <td class="tstNema"></td>
+              <td class="tstNema">Stabilan</td>
+              <td class="tstNema"></td>
+              <td class="tst">100%</td>
+              <td class="tst">Ne</td>
+            </tr>
+            <tr>
+              <td class="tst"><sup class="SupSet2">10</sup>Be</td>
+              <td class="tst">1,36 x 10<sup class="SupSet">6</sup>god</td>
+              <td class="tst">&beta; -</td>
+              <td class="tst"><sup class="SupSet2">10</sup>B</td>
+              <td class="tst">U tragovima</td>
+              <td class="tst">Da</td>
+            </tr>
+          </table>
+          
+          
+          
+        </div>
+      </div>
+
+      
+
+      <div class="VanjskaGrupacija">
+        <div class="O-elementu">
+          <div class="Pgraf">
+            <div>
+              <i style="color: black;">Općenito</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;Otkrio ga je Louis Nicolas Vauquelin 1797. godine u obliku oksida (BeO) tijekom analize berila. Izolirali su ga 1828. godine Friedricha Wohler
+              i Antonie Bussy. Sivi metal s visokim omjerom čvrstoće i težine, gustoće od samo 1,86 g/cm<sup class="SupSet">3</sup>. Široko je rasprostranjen u Zemljinoj kori, a udio u 
+              magmatskim stijenama procjenjuje se na oko 0,0002%. Tvori kompleksne spojeve i povezuje se izravno s ugljikom u nekoliko klasa organometalnih spojeva osjetljivih na vlagu i
+              zrak.
+              <br><div style="line-height: 1vw;">&nbsp;</div>
+              <div style="display: flex; flex-direction: column; float: right; margin-left: 1vw;">
+                <img class="Sl2 s22" src="/Slike/Elementi/Berilij.jpg">
+                <div class="SS">Zahvala firmi Luciteria Science za dozvolu korištenja slika elemenata</div>
+                <div class="SL">Posjetite stranicu&nbsp;<a class="dec-none" target="_blank" href="https://www.luciteria.com/elements-for-sale/buy-beryllium#productSlideshow"><button class="Gumb-Element">OVDJE</button></a>&nbsp;(elementarni berilij)</div>
+              </div>
+              <i style="color: black;">Proizvodnja</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;S obzirom na to da je udio berilija u rudama manji od 5% (beril sadži &lt;5% berilija, a bertrandit &lt;1%), te da je čvrsto vezan za kisik,
+              ekstrakcija je vrlo zahtjevna; obrade s kiselinama, žarenje s kompleksnim fluoridima i odjeljivanje tekućina korištene su tehnike kako bi dobili berilijev hidroksid. Hidroksid
+              se pretvara u fluor preko amonij-berilij-fluorida i zatim se zagrijava s magnezijem da nastane elementarni berilij. Alternativno se hidroksid zagrijava kako bi izbacili kisik
+              pa se zatim tretira ugljikom i klorom da nastane klorid koji kroz elektrolizu daje berilij. Pročišćava se taljenjem u vakuumu.
+              <br><div style="line-height: 1vw;">&nbsp;</div>
+              <i style="color: black;">Svojstva</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;Berilij je laki metal s visokim talištem. Stvara oksidni sloj koji štiti od daljnje oksidacije, ima izvrsnu električnu vodljivost, visoki toplinski
+              kapacitet i vodljivost, dobra mehanička svojstva pri visokim temperaturama i vrlo visoki modul elastičnosti, što ga čini dobrim materijalom za konstrukcijske i toplinske
+              primjene.
+              <br><div style="line-height: 1vw;">&nbsp;</div>
+              <i style="color: black;">Upotreba</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;U metalurgiji se koristi kao sredstvo za stvrdnjavanje. Dimenzionalna stabilnost i sposobnost da podnese visoki stupanj poliranja čine ga korisnim za
+              zrcala i kapke kamera u svemiru, vojnim i medicinskim primjenama te u proizvodnji poluvodiča. Zbog niske atomske težine propušta rendgenske zrake 17 puta bolje od aluminija
+              i koristi se u proizvodnji prozora za rendgenske cijevi. Bitan je dio žiroskopa, akcelerometara i računalnih dijelova za inercijalne instrumente za navođenje: projektila,
+              zrakoplova i svemirskih vozila. Koristi se za teške kočione bubnjeve i slične primjene u kojima je važno dobro hlađenje.
+              <div style="display: flex; flex-direction: column; float: left; margin-right: 1vw;">
+                <img class="Sl2 s23" src="/Slike/Elementi/Berilijkocke.jpg">
+                <div class="SS">Zahvala firmi Luciteria Science za dozvolu korištenja slika elemenata</div>
+                <div class="SL">Posjetite stranicu&nbsp;<a class="dec-none" target="_blank" href="https://www.luciteria.com/elements-for-sale/buy-beryllium#productSlideshow"><button class="Gumb-Element">OVDJE</button></a>&nbsp;(elementarni berilij)</div>
+              </div>
+              <br><div style="line-height: 1vw;">&nbsp;</div>
+              <i style="color: black;">Slitine</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;Veliki dio berilija koristi se kao komponenta tvrdih slitina najviše s bakrom kao glavnim dijelom, ali i sa slitinama na bazi nikla i željeza koje se
+              koriste u oprugama. Berilij-bakar (98% Cu, 2% Be) koristi se za izradu alata gdje iskrenje može biti opasno, kao u tvornicama praha. Berilij ne smanjuje iskrenje, već ojačava bakar
+              (za faktor 6) koji ne stvara iskre pri udaru. Mali postotak dodaje se i u legure kako bi stvorile zaštitne površinske slojeve smanjujući zapaljivost magnezija i potamnjivanje
+              legura srebra.
+              <br><div style="line-height: 1vw;">&nbsp;</div>
+              <i style="color: black;">Nuklerana fizika</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;Dok drugi metali apsorbiraju neutrone emitirane tijekom fisije nuklearnog goriva, atomi berilija samo smanjuju energiju takvih neutrona i reflektiraju
+              ih natrag u zonu fisije, pa se koristi u nuklearnoj tehnici. Sposobnost usporavanja brzih neutrona našla je značajnu primjenu u nuklearnim reaktorima. Berilij pomiješan s alfa
+              emiterom poput radija, americija ili plutonija koristi se kao izvor neutrona. Alfa čestice oslobođene nuklearnim raspadom alfa emitera reagiraju s atomima berilija dajući
+              neutrone s rasponom energija do 5 &#183; 106 eV, a ako se alfa emiter inkapsulira, tako da alfa čestica ne dosegne berilij, neutroni energije manje od 600000 eV proizvode se
+              prodornijim gama zračenjem iz produkata raspada alfa emitera. Važna primjena ovakve tehnike neutronskih izvora (Be/Ra) je: bombardiranje urana, što je dovelo do otkrića nuklearne
+              fisije 1939. godine i okidanje u uranu prve kontrolirane lančane reakcije fisije 1942. godine.
+              <br><div style="line-height: 1vw;">&nbsp;</div>
+              <i style="color: black;">Opasnosti</i><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;U vrijeme njegovog otkrića svaki eksperiment se kušao pa tako i berilij koji je, prema informacijama, bio sladak. Prvo ime dobio je po grčkoj riječi
+              „glykis“, što znači „slatko“, dok danas znamo da je berilij jako otrovan. Godine 1957. promijenjeno je ime. Udisanje usitnjenog praha ili prašine može izazvati dermatitis,
+              preosjetljivost na berilij i beriliozu (bolest koja smanjuje kapacitet pluća).
+              <!--<br><br>
+              Najvažniji spojevi uključuju oksid (BeO), hidroksid (Be(OH)<sub>2</sub>), fluorid (BeCl<sub>2</sub>), klorid (BeF<sub>2</sub>) i sulfat (Be(SO<sub>4</sub>)). O njima više saznajte OVDJE.-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="VanjskaGrupacija">
+        <div class="Boix">
+          <div style="display: flex; align-items: center;">
+            <img class="Sl1" src="/Slike/Osobe/Louis Nicolas Vauquelin.jpg">
+            <div class="Te1">Francuski kemičar Louis Nicolas Vauquelin (1763. - 1829.), specijalist za analizu otkrio je berilij u obliku oksida (BeO) tijekom analize berila.</div>
+          </div>
+          <div style="display: flex; align-items: center;">
+            <div class="Te2">U vrijeme njegovog otkrića svaki eksperiment se kušao pa tako i berilij koji je, prema informacijama, bio sladak. Prvo ime dobio je po grčkoj riječi "glykis", što znači slatko, dok danas znamo da je berilij jako otrovan. 1957. godine ime je promijenjeno.</div>
+              <div class="Okv">
+                <img class="Sl2" src="/Slike/Elementi/Berilij.jpg">
+                <div class="SS">Zahvala firmi Luciteria Science za dozvolu korištenja slika elemenata</div>
+                <div class="SL">Posjetite stranicu&nbsp;<a class="dec-none" target="_blank" href="https://www.luciteria.com/elements-for-sale/buy-beryllium"><button class="Gumb-Element">OVDJE</button></a>&nbsp;(elementarni berilij)</div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="VanjskaGrupacija">
+        <div class="Sett">
+          <div class="left">
+            <img class="HenryC" src="/Slike/Osobe/Louis Nicolas Vauquelin.jpg">
+            <div class="OHenryju">Francuski kemičar Louis Nicolas Vauquelin (1763. - 1829.), specijalist za analizu otkrio je berilij u obliku oksida (BeO) tokom analize berila.
+            </div>
+          </div>
+          <div class="right">
+            <div class="OTubi">U vrijeme njegovog otkrića, svaki eksperiment se kušao pa tako i berilij koji je, prema informacijama, bio sladak. Prvo ime dobio je po grčkoj riječi 'glykis' što znači slatko, dok danas znamo da je berilij jako otrovan. 1957. godine ime je promijenjeno.</div>
+            <div style="display: flex; flex-direction: column;">
+              <img class="VodikTuba" src="/Slike/Elementi/Berilij.jpg" style="width: 30vw; object-fit: cover;">
+              <div class="SS">Zahvala firmi Luciteria Science za dozvolu korištenja slika elemenata</div>
+              <div class="SL">Posjetite stranicu&nbsp;<a class="dec-none" target="_blank" href="https://www.luciteria.com/elements-for-sale/buy-beryllium"><button class="Gumb-Element">OVDJE</button></a>&nbsp;(elementarni berilij)</div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+      <!--<div class="Zahvala" style="margin: 0; margin-top: 1vh; border-bottom: none; color: lightskyblue; border-top: solid black 0.2vw; border-bottom: solid black 0.2vw; background-color: white;">
+        <div class="ZahvalaT" style="color: black;">
+          Velika zahvala firmi Luciteria Science za dozvolu korištenja njihovih slika elemenata, ukoliko želite kupiti čiste elemente posjetite njihovu stranicu, kvaliteta i autentičnost su zagarantirani! 
+        </div>
+        <div class="ZahvalaT" style="color: black;">
+          Klinki <a class="dec-none" href="https://www.luciteria.com/elements-for-sale/buy-sodium-metal"><button class="Gumb-Element">OVDJE</button></a> ako želis vidjeti vodik.
+        </div>
+      </div>-->
+      
+    
+
+      <div class="VanjskaGrupacija">
+        <div class="ElekKonf">
+          <div class="EKONFKONF">Elektronska konfiguracija</div>
+          <div class="EKF">
+            
+            <div  class="DDD">
+              <div class="DDDD"> <div style="padding-bottom: 0.5vw;">Obična notacija:&nbsp;</div><div class="ObicnaNotacija" style="margin-top: -0.3vw;">1s<sup>2</sup>2s<sup>2</sup> </div></div>
+              <div style="display: flex; flex-direction: column; align-items: center; height: 2vw; margin-top: 1vw;" class="DDDDD"> <div>Notacija pomoću plemenitog plina:&nbsp;</div><div class="NotacijaPlemenitogPlina" style="margin-top: 0.3vw;" >[He]2s<sup>2</sup></div> </div>
+            </div>
+
+            <div class="SPDFNotacija">
+              <div class="DDDDDD">
+                <div class="SPDFNASLOV">SPDF notacija:</div>
+                <div class="Pd"><div class="BrojElek"></div> <div class="PadS">s</div> </div>
+                <div class="Pd"><div class="BrojElek">1</div> <div class="Skockica"> <div class="KucicaPredset"><div class="Test" >&#x2799;</div><div class="Test2">&#x2799;</div></div> </div> <div class="PadP">p</div></div>
+                <div class="Pd"><div class="BrojElek">2</div> <div class="Skockica"> <div class="KucicaPredset"><div class="Test" >&#x2799;</div><div class="Test2">&#x2799;</div></div> </div> <div class="Pkockica"><div class="Kucica"><div class="KucicaPredsetP"></div></div><div class="Kucica"><div class="KucicaPredsetP"></div></div><div class="Kucica"><div class="KucicaPredsetP"></div></div></div> <div class="PadD">d</div></div>
+                <div class="Pd"><div class="BrojElek">3</div> <div class="Skockica"> <div class="KucicaPredset"></div> </div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="PadF">f</div> </div>
+                <div class="Pd"><div class="BrojElek">4</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Fkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> </div>
+                <div class="Pd"><div class="BrojElek">5</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Fkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> </div>
+                <div class="Pd"><div class="BrojElek">6</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> </div>
+                <div class="Pd"><div class="BrojElek">7</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div>  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="VanjskaGrupacija">
+        <div class="NajvažnijiSpojevi">
+          <div class="NajvažnijiSpojeviNaslov"><div class="Nasslov">Najvažniji spojevi</div></div>
+          
+          <div class="SpojPočetak">
+            <div class="LK">Berilijev oksid (<div class="FormulaPodnaslova">BeO</div>)</div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Kako napraviti berilijev oksid?</div></div>
+            <div class="Redic"><div class="Tan">1. Prženjem berilijevog karbonata<div class="SpojSpoj"><nobr>BeCO<sub class="SubSet2">3</sub>&nbsp;&#10141; BeO + CO<sub class="SubSet2">2</sub></nobr></div></div></div>
+            <div class="Redic"><div class="Tan">2. Dehidracijom berilijevog hidroksida<div class="SpojSpoj"><nobr>Be(OH)<sub class="SubSet2">2</sub>&nbsp;&#10141; BeO + H<sub class="SubSet2">2</sub>O</nobr></div></div></div>
+            <div class="Redic"><div class="Tan">3. Paljenjem metalnog berilija<div class="SpojSpoj"><nobr>2Be + O<sub class="SubSet2">2</sub>&nbsp;&#10141; 2BeO</nobr></div></div></div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Za što se koristi berilijev oksid?</div></div>
+            <div class="Redic">
+              <div class="Ops">
+                Berilijev oksid vatrostalan je materijal na visokim temperaturama (talište 2530 °C). Karakteriziran je visokim električnim otporom, dielektričnom
+                čvrstoćom i visokom toplinskom vodljivošću. Primjenjuje se u keramičkom materijalu koji se koristi u raketnim motorima i visokotemperaturnim nuklearnim uređajima.
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="Spoj">
+            <div class="LK">Berilijev hidroksid (<div class="FormulaPodnaslova">Be(OH)<sub class="SubSet3">2</sub></div>)</div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Kako napraviti berilijev hidroksid?</div></div>
+            <div class="Redic"><div class="Tan">1. Dobiva se kao nusprodukt tijekom vađenja berilija iz minerala berila</div></div>
+            <div class="Redic"><div class="Tan">2. Spajanjem oksida berilija i vode<div class="SpojSpoj"><nobr>BeO + H<sub class="SubSet2">2</sub>O&nbsp;&#10141; Be(OH)<sub class="SubSet2">2</sub></nobr></div></div></div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Za što se koristi berilijev hidroksid?</div></div>
+            <div class="Redic">
+              <div class="Ops">
+                Berilijev hidroksid vrlo je važan spoj za dobivanje berilija i berilijevih soli i oksida.
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="Spoj">
+            <div class="LK">Berilijev klorid (<div class="FormulaPodnaslova">BeCl<sub class="SubSet3">2</sub></div>)</div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Kako napraviti berilijev klorid?</div></div>
+            <div class="Redic"><div class="Tan">1. Spajanjem berilija i klora pri visokim temperaturama<div class="SpojSpoj"><nobr>Be + Cl<sub class="SubSet2">2</sub>&nbsp;&#10141; BeCl<sub class="SubSet2">2</sub></nobr></div></div></div>
+            <div class="Redic"><div class="Tan">2. Spajanjem berilijevog oksida, ugljika i klora pri visokim temperaturama<div class="SpojSpoj"><nobr>BeO + C + Cl<sub class="SubSet2">2</sub>&nbsp;&#10141; BeCl<sub class="SubSet2">2</sub> + CO</nobr></div></div></div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Za što se koristi berilijev klorid?</div></div>
+            <div class="Redic">
+              <div class="Ops">
+                Berilijev klorid katalizira Friedel-Craftsovu reakciju, a koristi se za dobivanje i elektropročišćavanje berilija.
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="Spoj">
+            <div class="LK">Berilijev fluorid (<div class="FormulaPodnaslova">BeF<sub class="SubSet3">2</sub></div>)</div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Kako napraviti berilijev fluorid?</div></div>
+            <div class="Redic"><div class="Tan">1. Spajanjem nečistog berilijevog hidroksida (dobivenim iz ruda) i amonijeva bifluorida koji se zatim mora zagrijati<div class="SpojSpoj"><nobr>Be(OH)<sub class="SubSet2">2</sub> + 2(NH<sub class="SubSet2">4</sub>)HF<sub class="SubSet2">2</sub>&nbsp;&#10141; (NH<sub class="SubSet2">4</sub>)<sub class="SubSet2">2</sub>BeF<sub class="SubSet2">4</sub> + 2H<sub class="SubSet2">2</sub>O</nobr></div></div></div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Za što se koristi berilijev fluorid?</div></div>
+            <div class="Redic">
+              <div class="Ops">
+                Berilijev fluorid služi kao imitator fosfata u kristalografiji proteina. Koristi se u proizvodnji
+              metalnog berilija.
+              </div>
+            </div>
+          </div>
+
+          
+          
+          <div class="SpojKraj">
+            <div class="LK">Berilijev sulfat (<div class="FormulaPodnaslova">Be(SO<sub class="SubSet3">4</sub>)</div>)</div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Kako napraviti berilijev sulfat?</div></div>
+            <div class="Redic"><div class="Tan">1. Spajanjem berilijevog oksida i sumporne kiseline<div class="SpojSpoj"><nobr>BeO + H<sub class="SubSet2">2</sub>SO<sub class="SubSet2">4</sub>&nbsp;&#10141; BeSO<sub class="SubSet2">4</sub> + H<sub>2</sub>O</nobr></div></div></div>
+            <div class="RedicPodnaslov"><div class="TekstPodnaslova">Za što se koristi berilijev sulfat?</div></div>
+            <div class="Redic">
+              <div class="Ops">
+                Berilijev sulfat koristi se za dobivanje praha berilijevog oksida, a u keramici berilijeva oksida služi kao vezivo.
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>-->
+      
+      
+      <div class="VanjskaGrupacija">
+        <div class="Medju">
+          
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="Podnožje">
+ 
+      
+
+      <div class="Prozorce">
+        <div>
+          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="../Ikone/facebook_145802.png" class="Linking" >MineralogijaHR</a></div>
+          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="../Ikone/instagram_3670125.png" class="Linking">Mineralogija_Hr</a></div>
+        </div>
+        <div>
+          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="../Ikone/gmail_5968534.png" class="Linking">Mineralogija.Hr@gmail.com</a></div>
+          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="../Ikone/5296521_play_video_vlog_youtube_youtube logo_icon.svg" class="Linking">MineralogijaHr</a></div>  
+        </div>
+      </div>
+
+      <div class="ObjasnjenaSet">
+        <div class="AAutor">Autor: Bruno Hledik</div>
+        <div class="TText">Pratite novosti i moja putovanja na Instagramu i Facebooku.</div>
+        <div class="TText">Prijavite grešku na gmail uz literaturu iz koje je informacija dobivena.</div>
+        <div class="TText">Pogledajte kolekciju elemenata i minerala na YouTubeu.</div>
+        <div class="TText">Svi primjerci su prirodni ukoliko u opisu slike nije navedeno drugačije.</div>
+        <div class="TTText">&copy; Bruno Hledik 2023. All right reserved</div>
+        
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="/js/popup.js"></script>
+  </body>
+</html>
