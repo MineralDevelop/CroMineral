@@ -1,6 +1,7 @@
 <template>
 <body v-if="dohvati">
     <div class="Sve">
+      
       <div class="VanjskaGrupacija">
         <div class="Grupacija">
           <div class="PSEOPCE">
@@ -36,56 +37,56 @@
             </tr>
             <tr v-if="DohvatiIzotope.Izotop">
               <td class="tst"><div v-html="DohvatiIzotope.Izotop"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Vrijeme"></div></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa !== 'nema'" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa"></div></td>
-              <td v-if="DohvatiIzotope.Produkt !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Produkt"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme === 'nema'" class="tstNema"></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa === 'nema'" class="tstNema">Stabilan</td>
-              <td v-if="DohvatiIzotope.Produkt === 'nema'" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.Vrijeme !== null" class="tst"><div v-html="DohvatiIzotope.Vrijeme"></div></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa !== null" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa"></div></td>
+              <td v-if="DohvatiIzotope.Produkt !== null" class="tst"><div v-html="DohvatiIzotope.Produkt"></div></td>
+              <td v-if="DohvatiIzotope.Vrijeme === null" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa === null" class="tstNema">Stabilan</td>
+              <td v-if="DohvatiIzotope.Produkt === null" class="tstNema"></td>
               <td class="tst">{{DohvatiIzotope.Priroda}}</td>
               <td class="tst">{{DohvatiIzotope.RadioIzotop}}</td>
             </tr>
             <tr v-if="DohvatiIzotope.Izotop2">
               <td class="tst"><div v-html="DohvatiIzotope.Izotop2"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme2 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Vrijeme2"></div></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa2 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa2"></div></td>
-              <td v-if="DohvatiIzotope.Produkt2 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Produkt2"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme2 === 'nema'" class="tstNema"></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa2 === 'nema'" class="tstNema">Stabilan</td>
-              <td v-if="DohvatiIzotope.Produkt2 === 'nema'" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.Vrijeme2 !== null" class="tst"><div v-html="DohvatiIzotope.Vrijeme2"></div></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa2 !== null" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa2"></div></td>
+              <td v-if="DohvatiIzotope.Produkt2 !== null" class="tst"><div v-html="DohvatiIzotope.Produkt2"></div></td>
+              <td v-if="DohvatiIzotope.Vrijeme2 === null" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa2 === null" class="tstNema">Stabilan</td>
+              <td v-if="DohvatiIzotope.Produkt2 === null" class="tstNema"></td>
               <td class="tst">{{DohvatiIzotope.Priroda2}}</td>
               <td class="tst">{{DohvatiIzotope.RadioIzotop2}}</td>
             </tr>
             <tr v-if="DohvatiIzotope.Izotop3">
               <td class="tst"><div v-html="DohvatiIzotope.Izotop3"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme3 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Vrijeme3"></div></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa3 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa3"></div></td>
-              <td v-if="DohvatiIzotope.Produkt3 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Produkt3"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme3 === 'nema'" class="tstNema"></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa3 === 'nema'" class="tstNema">Stabilan</td>
-              <td v-if="DohvatiIzotope.Produkt3 === 'nema'" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.Vrijeme3 !== null" class="tst"><div v-html="DohvatiIzotope.Vrijeme3"></div></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa3 !== null" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa3"></div></td>
+              <td v-if="DohvatiIzotope.Produkt3 !== null" class="tst"><div v-html="DohvatiIzotope.Produkt3"></div></td>
+              <td v-if="DohvatiIzotope.Vrijeme3 === null" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa3 === null" class="tstNema">Stabilan</td>
+              <td v-if="DohvatiIzotope.Produkt3 === null" class="tstNema"></td>
               <td class="tst">{{DohvatiIzotope.Priroda3}}</td>
               <td class="tst">{{DohvatiIzotope.RadioIzotop3}}</td>
             </tr>
             <tr v-if="DohvatiIzotope.Izotop4">
               <td class="tst"><div v-html="DohvatiIzotope.Izotop4"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme4 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Vrijeme4"></div></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa4 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa4"></div></td>
-              <td v-if="DohvatiIzotope.Produkt4 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Produkt4"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme4 === 'nema'" class="tstNema"></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa4 === 'nema'" class="tstNema">Stabilan</td>
-              <td v-if="DohvatiIzotope.Produkt4 === 'nema'" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.Vrijeme4 !== null" class="tst"><div v-html="DohvatiIzotope.Vrijeme4"></div></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa4 !== null" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa4"></div></td>
+              <td v-if="DohvatiIzotope.Produkt4 !== null" class="tst"><div v-html="DohvatiIzotope.Produkt4"></div></td>
+              <td v-if="DohvatiIzotope.Vrijeme4 === null" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa4 === null" class="tstNema">Stabilan</td>
+              <td v-if="DohvatiIzotope.Produkt4 === null" class="tstNema"></td>
               <td class="tst">{{DohvatiIzotope.Priroda4}}</td>
               <td class="tst">{{DohvatiIzotope.RadioIzotop4}}</td>
             </tr>
             <tr v-if="DohvatiIzotope.Izotop5">
               <td class="tst"><div v-html="DohvatiIzotope.Izotop5"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme5 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Vrijeme5"></div></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa5 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa5"></div></td>
-              <td v-if="DohvatiIzotope.Produkt5 !== 'nema'" class="tst"><div v-html="DohvatiIzotope.Produkt5"></div></td>
-              <td v-if="DohvatiIzotope.Vrijeme5 === 'nema'" class="tstNema"></td>
-              <td v-if="DohvatiIzotope.VrstaIzotopa5 === 'nema'" class="tstNema">Stabilan</td>
-              <td v-if="DohvatiIzotope.Produkt5 === 'nema'" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.Vrijeme5 !== null" class="tst"><div v-html="DohvatiIzotope.Vrijeme5"></div></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa5 !== null" class="tst"><div v-html="DohvatiIzotope.VrstaIzotopa5"></div></td>
+              <td v-if="DohvatiIzotope.Produkt5 !== null" class="tst"><div v-html="DohvatiIzotope.Produkt5"></div></td>
+              <td v-if="DohvatiIzotope.Vrijeme5 === null" class="tstNema"></td>
+              <td v-if="DohvatiIzotope.VrstaIzotopa5 === null" class="tstNema">Stabilan</td>
+              <td v-if="DohvatiIzotope.Produkt5 === null" class="tstNema"></td>
               <td class="tst">{{DohvatiIzotope.Priroda5}}</td>
               <td class="tst">{{DohvatiIzotope.RadioIzotop5}}</td>
             </tr>
@@ -162,57 +163,21 @@
 
             <div class="SPDFNotacija">
               <div v-html="dohvati.SPDF"></div>
-              <!--<div class="DDDDDD">
-                <div class="SPDFNASLOV">SPDF notacija:</div>
-                <div class="Pd"><div class="BrojElek"></div> <div class="PadS">s</div> </div>
-                <div class="Pd"><div class="BrojElek">1</div> <div class="Skockica"> <div class="KucicaPredset"><div class="Test" >&#x2799;</div><div class="Test2">&#x2799;</div></div> </div> <div class="PadP">p</div></div>
-                <div class="Pd"><div class="BrojElek">2</div> <div class="Skockica"> <div class="KucicaPredset"><div class="Test" >&#x2799;</div><div class="Test2">&#x2799;</div></div> </div> <div class="Pkockica"><div class="Kucica"><div class="KucicaPredsetP"></div></div><div class="Kucica"><div class="KucicaPredsetP"></div></div><div class="Kucica"><div class="KucicaPredsetP"></div></div></div> <div class="PadD">d</div></div>
-                <div class="Pd"><div class="BrojElek">3</div> <div class="Skockica"> <div class="KucicaPredset"></div> </div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="PadF">f</div> </div>
-                <div class="Pd"><div class="BrojElek">4</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Fkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> </div>
-                <div class="Pd"><div class="BrojElek">5</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Fkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> </div>
-                <div class="Pd"><div class="BrojElek">6</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> <div class="Dkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div> </div>
-                <div class="Pd"><div class="BrojElek">7</div> <div class="Skockica"></div> <div class="Pkockica"><div class="Kucica"></div><div class="Kucica"></div><div class="Kucica"></div></div>  </div>
-              </div>-->
             </div>
           </div>
         </div>
       </div>
       
-      <div class="VanjskaGrupacija">
-        <div class="Medju">
-          
-        </div>
-      </div>
+      <UcitavanjeMinerala :OdabraniMineral="dataProp"/>
+      
+
+
+
     </div>
 
     
     <PodnozjeStranice/>
-    <!--<div class="Podnožje">
- 
-      
-
-      <div class="Prozorce">
-        <div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img  class="Linking" >MineralogijaHR</a></div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img  class="Linking">Mineralogija_Hr</a></div>
-        </div>
-        <div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img  class="Linking">Mineralogija.Hr@gmail.com</a></div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img  class="Linking">MineralogijaHr</a></div>  
-        </div>
-      </div>
-
-      <div class="ObjasnjenaSet">
-        <div class="AAutor">Autor: Bruno Hledik</div>
-        <div class="TText">Pratite novosti i moja putovanja na Instagramu i Facebooku.</div>
-        <div class="TText">Prijavite grešku na gmail uz literaturu iz koje je informacija dobivena.</div>
-        <div class="TText">Pogledajte kolekciju elemenata i minerala na YouTubeu.</div>
-        <div class="TText">Svi primjerci su prirodni ukoliko u opisu slike nije navedeno drugačije.</div>
-        <div class="TTText">&copy; Bruno Hledik 2023. All right reserved</div>
-        
-      </div>
-
-    </div>-->
+    
     </body>
 
 </template>
@@ -222,7 +187,7 @@
 import db from "/VueProjekt/src/firebase/init.js";
 import { doc, getDoc } from "/VueProjekt/node_modules/firebase/firestore/dist/firestore/index.d.ts";
 import PodnozjeStranice from "./PodnozjeStr.vue";
-
+import UcitavanjeMinerala from "./UcitavanjeMinerala.vue";
 
 
 
@@ -239,6 +204,7 @@ import PodnozjeStranice from "./PodnozjeStr.vue";
 export default {
   components: {
     PodnozjeStranice,
+    UcitavanjeMinerala,
   },
 
 
@@ -247,12 +213,16 @@ export default {
     return {
       dohvati: null,
       //processedParagraph5: null,
+      minerali: [], // NOVO
     };
   },
+  
   created() {
     this.getSimbol();
+    document.title = 'Element - ' + this.dataProp;
   },
   methods: {
+    
     async getSimbol() {
       try {
         // Get the document snapshot
@@ -274,6 +244,7 @@ export default {
       }
       
     },
+    
     /*processParagraphs() {                               // KORISTI AKO SE SLIKE ZAJ*BU
       if (this.dohvati && this.dohvati.Paragraf1) {
         // Initialize processedParagraphs array

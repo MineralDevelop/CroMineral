@@ -18,14 +18,19 @@
           <ul class="dropdown-menu" style="height: fit-content;">
             <li class="Lili"><a class="dropdown-item" style="font-family: rubik;" @click="Min()">Minerali</a></li>
             <li class="Lili"><a class="dropdown-item" style="font-family: rubik;" @click="Gal()">Galerija</a></li>
-            <li class="Lili"><a class="dropdown-item" style="font-family: rubik;">PSE</a></li>
+            <li class="Lili"><a class="dropdown-item" style="font-family: rubik;" @click="PSE()">PSE</a></li>
           </ul>
         </div>
       </div>
     </div>
 
   <!-- v-if="Podatak && !ElementDataExists -->
-      <div v-if="showElementLoad" >
+      <div v-if="showElementLoad && Sakrij" >
+        <div>
+          <a @click="PSE()">
+            <div class="NZD">Periodni sustav elemenata</div>
+          </a>
+        </div>
         <Element :dataProp="Podatak" @elementNotFound="handleElementNotFound"></Element>
       </div>
       
@@ -1646,6 +1651,7 @@
   import Element from './/ElementLoad.vue'
 
   export default {
+    
     components: {
       Element,
     },
@@ -1666,6 +1672,13 @@
           type: Boolean,
           required: true
         },
+        PSEe:{
+          type: Boolean,
+          required: true
+        }
+    },
+    created() {
+      document.title = 'PSE';
     },
     data(){
       return{
@@ -1675,21 +1688,34 @@
         Upozorenje: 1,
 
         Prikazi: true,
+        Sakrij: true,
+        
       }
     },
     methods: {
       async handleClick(Vrijednost) {
         this.Podatak = Vrijednost;
         this.showElementLoad = true; 
+        this.Sakrij = true;
         
       },
+      // koristi @elementNotFound="handleElementNotFound" V //
       handleElementNotFound() {
-        this.showElementLoad = false; 
+        this.showElementLoad = false;
         alert("Element nije još dostupan");
       },
+      // koristi @elementNotFound="handleElementNotFound" _ //
 
-
-      
+      PSE() {
+        window.scrollTo(0, 0);
+        this.Podatak=null;
+        if(this.Podatak === null){
+          this.Prikazi = true;
+          this.Sakrij = false;
+          this.showElementLoad = false;
+          document.title = 'PSE';
+        }        
+      },
       Min() {
         this.$emit('update-min', true);
         this.Prikazi = false;
