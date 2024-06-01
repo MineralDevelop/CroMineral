@@ -125,6 +125,7 @@
 .dropdown-item:hover{
   background-color: royalblue;
   color: white;
+  cursor: pointer;
 }
 .Alink{
   display: flex;
