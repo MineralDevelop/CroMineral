@@ -1,439 +1,221 @@
-<!DOCTYPE html>
-<html>
+
   <head>
-    <title>Minerali</title>
-    <link rel="stylesheet" href="css/Podnozje.css">
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/zaglavlje.css">
-    <link rel="stylesheet" href="css/MineraliTest.css">
-    <link rel="stylesheet" href="css/NoviGumbici.css">
-    <style>
-      *{
-        box-sizing: content-box;
-        font-family: 'rubik';
-        font-weight: 600;
-      }
-      p{
-        margin: 0;
-      }
-      @media (min-width: 1200px){
-
-      }
-      @media (max-width: 1399px){
-
-      }
-      @media (max-width: 1199px){
-
-      }
-      @media (max-width: 991px){
-        
-        .LNovi{
-          width: 25vw;
-          height: 30vw;
-          margin: 1vw;
-        }
-        .ImeNovo{
-          font-size: 1.3rem;
-        }
-        .FormulaNova{
-          font-size: 0.9rem;
-        }
-        .SubSet{
-          font-size: 0.7rem;
-        }
-        .SubSet2{
-          font-size: 0.7rem;
-        }
-        .SupSet{
-          font-size: 0.7rem;
-        }
-      }
-      @media (max-width: 767px){
-        .LNovi{
-          width: 25vw;
-          height: 30vw;
-          margin: 1vw;
-        }
-        .ImeNovo{
-          font-size: 1rem;
-        }
-        .FormulaNova{
-          font-size: 0.7rem;
-        }
-        .SubSet{
-          font-size: 0.55rem;
-        }
-        .SubSet2{
-          font-size: 0.55rem;
-        }
-        .SupSet{
-          font-size: 0.55rem;
-        }
-      }
-      @media (max-width: 575px){
-        .LNovi{
-          width: 25vw;
-          height: 30vw;
-          margin: 1vw;
-        }
-        .ImeNovo{
-          font-size: 0.8rem;
-        }
-        .FormulaNova{
-          font-size: 0.55rem;
-        }
-        .SubSet{
-          font-size: 0.4rem;
-        }
-        .SubSet2{
-          font-size: 0.4rem;
-        }
-        .SupSet{
-          font-size: 0.4rem;
-        }
-      }
-      .dropdown-menu,.dropdown,.dropdown-item,.Lili,.btn,
-      .dropdown-menu::after,.dropdown::after,.dropdown-item::after,.Lili::after,.btn::after,
-      .dropdown-menu::before,.dropdown::before,.dropdown-item::before,.Lili::before,.btn::before{
-        box-sizing: border-box;
-        font-family: 'rubik';
-        font-weight: 600;
-      }
-      .btn{
-        font-weight: 300;
-      }
-
-    </style>
+    <title>Minerali-Ahat</title> 
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/Podnozje.css">
+    <link rel="stylesheet" href="/css/zaglavlje.css">
+    <link rel="stylesheet" href="/css/Colorchart.css">
+    <link rel="stylesheet" href="/css/RespoMin.css">
+    <link rel="stylesheet" href="/css/NoviGumbici.css">
   </head>
-  <body>
-    <div style="display: flex; background-color: #454545; height: 6vh; position: relative; z-index: 100; width: 100%;">
-      <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center;"><a class="Alink" href="index.html"><button class="Blink">MineralogijaHR</button></a></div>
-      <div style="margin-top: -0.2vw; display: flex; width: 100%; align-items: center; color: white; justify-content: center;"><div class="Mjestooo">&#8275; Mjesto gdje su svi minerali prirodni &#8275;</div></div>
-      <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center; justify-content: right; margin-right: 1.5vw;">
-        
-        
-  
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none;">
-            Menu
-          </button>
-          <ul class="dropdown-menu" style="height: fit-content;">
-            <li><a class="dropdown-item" href="Minerali.html">Minerali</a></li>
-            <li><a class="dropdown-item" href="Galerija.html">Galerija</a></li>
-            <li><a class="dropdown-item" href="PSEtest.html">PSE</a></li>
-          </ul>
+      
+
+
+      <div class="NaslovOtvaranje">Ahat</div>
+
+
+
+      <div class="GalSlika" style="display: flex; width: 100%; border-bottom: solid 0.15vw; pad: 0; margin: 0;">
+
+        <div class="SetSlika" style="display: flex; flex-direction: column;">
+          <div class="SetSlika2" style="display: flex;">
+            <div class="Slikica"><img src="../Slike/PlaviAhat.jpg" alt="" class="SSlika"><div class="UUzSliku" style="color: black;">Obojeni ahat</div></div>
+            <div class="Slikica"><img src="../Slike/Ahat_ruža.jpg" alt="" class="SSlika"><div class="UUzSliku">Ahat ruža</div></div>
+          </div>
+          <div style="display: flex;">
+            <p class="OOpisSlike">Nepoznato nalazište</p>
+            <p class="OOpisSlike">Nepoznato nalazište</p>
+          </div>
         </div>
         
-        
+        <div class="SetSlika" style="display: flex; flex-direction: column;">
+          <div class="SetSlika2" style="display: flex;">
+            <div class="Slikica"><img src="../Slike/VatreniAhat.jpg" alt="" class="SSlika"><div class="UUzSliku" style="color: black;">Vatreni ahat</div></div>
+            <div class="Slikica"><img src="../Slike/Dendritski_ahat.jpg" alt="" class="SSlika"><div class="UUzSliku">Dendritski ahat</div></div>  
+          </div>
+          <div style="display: flex;">
+            <p class="OOpisSlike">Nepoznato nalazište</p>
+            <p class="OOpisSlike">Nepoznato nalazište</p>
+          </div>
+        </div>
+      
       </div>
-    </div>
-    <!--<div class="Zaglavlje" style="background-color: #454545;">
-      style=" background-color: rgb(51, 51, 51); z-index: 100;"
-  
-      <div class="Lijevo1" style="background-color: #454545; margin-left: 2vw;">
-        <a class="gumbac1" style="font-family: 'Rubik'" href="index.html">Mineralogija.hr</a>
-      </div>
-  
-      <div class="Desno1" style="background-color: #454545">
-        <a class="gumbac1-mali" style="font-family: 'Rubik';" href="PSEtest.html">PSE</a>
-        <a class="gumbac1-srednji" style="font-family: 'Rubik'; background-color: orangered; color: black; " href="Minerali.html">Minerali</a>
-        <a class="gumbac1-srednji" style="font-family: 'Rubik';" href="Galerija.html">Galerija</a>
-      </div>
-  
-    </div>-->
+      <div class="TeksticVise">Više slika ahata možete pronaći <a href="#">ovdje</a></div>
+      
 
-    <!-- Informacije -->
+      
+
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        
+        <div style="width: 92vw; font-size: 1.2vw; padding: 1vw; margin-top: 1vw;">
+          <div ></div>
+            <div class="NaslovOCemu">O ahatu</div>
+            <div class="Tekstic">
+              Ahat je mikrokristalasti varijetet kalcedona (kvarca), po kemijskoj formuli silicijev dioksid ( SiO<sub class="SubSet">2</sub> ), pa se zbog toga svrstava u silikate. Imenovao
+              ga je grčki filozof Theophrastus (&#x223C;371. pr. Kr. - &#x223C;287. pr. Kr.)
+              između 3. i 4. stoljeća, a ime je dobio po rijeci Achates u jugozapadnoj Siciliji. Zbog velikog spektra boja u kojima se pojavljuje i činjenice da je jako učestali mineral,
+              često se koristi u izradi nakita i ukrasnih predmeta. Kao primjer za nakit mogu biti naušnice i ogrlice, a kao ukrasni predmet polira se u kuglu, kabošon, pločicu i toranj.
+              Od njega se mogu raditi i skulpture zahvaljujući njegovoj tvrdoći i čvrstoći. Kao ukrasni premet može se zadržati u formi prepolovljene geode. Rimljani su ga umjetno bojali umačući
+              ga u med, a zatim u sumpornu kiselinu jer je tako bilo moguće napraviti ahat crno-bijele boje. S današnjim modernim bojama moguće je napraviti puno više. Ahat se umjetno
+              boja tako da je mineral potopljen u boji na 60 do 80°C. Nakon 120 do 168 sati obojeni mineral ispire se u etanolu i vodi, a zatim se polira. Zato na tržištu možemo pronaći
+              primjerke ahata intenzivne zelene, plave, roze i ljubičaste boje koje u prirodi ne postoje. Zbog visoke tvrdoće koristi se u opremi za brušenje i poliranje, alatima za rezanje, u
+              izradi tarionika i u abrazivnom prahu. Formiraju se u hidrotermalnim žilama, u fosiliziranom drvu, a najčešće u  šupljinama vulkanskih stijena. Zbog velike otpornosti na trošenje pronalaze
+              se i u rijekama, potocima i šljunčanim naslagama. 
+              <br>
+              <br>
+              Prema načinu formiranja razlikujemo: 
+              <ul class="MARGINA">
+                
+                <li class="L1"><span class="bold">Slojeviti ahat</span> - dok se lava hladi, para i ostali plinovi tvore mjehuriće u tekućem kamenu koji su zarobljeni i tako tvore šupljine. Nakon što kamen očvrsne, vodena otopina
+                  silicija ulazi u mjehurić i pretvara se u silikonski gel. Ta pojava se ponavlja dok se mjehurić (šupljina) ne popuni. Zatim sve kristalizira kako voda nestaje, a slojevi
+                  ostaju netaknuti.</li>
+                
+                <li class="L1"><span class="bold">Mahovinasti ahat</span> - formira se pod raznim procesima u kojima se drugi minerali uključuju u ahat. „Drugi minerali“ najčešće su željezov ili manganov oksid ili klorit.</li>
+                
+                <li class="L1"><span class="bold">Ahatizirano drvo</span> - nastaje kada se sva organska tvar u drvu zamijeni ahatom, ćelija po ćelija.</li>
+                
+                <li class="L1"><span class="bold">„Jaja groma“</span> - formiraju se kada staru vulkansku stijenu ispuni silikonski gel u paralelnim ravnim slojevima.</li>
+                <br>
+              </ul>
+              Boja ahata ovisi o primjesima koje je vodena otopina silicija pokupila putem do mjesta taloženja. Crvenu, narančastu i žutu boju dobiva od željezovog oksida, crnu i smeđu boju
+              od manganovog oksida, plavu, zelenu i ljubičastu boju od aluminijevog oksida, a bijele trakice dobiva od kalcijevog karbonata. Može sadržavati tragove drugih elemenata poput
+              bakra, nikla i kobalta koji mogu dodatno utjecati na njegovu boju i svojstva kristala.
+              <br>
+              <br>
+              Prema boji i obliku razlikujemo (izdvojeni najbitniji):
+              <ul class="MARGINA">
+                
+                <li class="red"><span class="bold">Ahatizirani fosil</span> (engl. <i class="ita">Fossil agate</i>) - fosil zamijenjen ahatom</li>
+
+                <li class="red"><span class="bold">Ahatizirani koralj</span> (engl. <i class="ita">Agatized coral</i>) - koralj zamijenjen ahatom</li>
+                
+                <li class="red"><span class="bold">Ahat oko</span> (engl. <i class="ita">Eye agate</i>) - koncentrični prstenasti uzorak, podsjeća na oko</li>
+
+                <li class="red"><span class="bold">Blue lace ahat</span> (engl. <i class="ita">Blue lace agate</i>) - specifično blijedo plavi ahat</li>
+                
+                <li class="red"><span class="bold">Bocvanski ahat</span> (engl. <i class="ita">Botswana agate</i>) - pronalazi se samo u Bocvani, prepoznatljiv po uzorku koji je nastao zbog formacije u vulkanskom pepelu</li>
+                
+                <li class="red"><span class="bold">Dendritski ahat</span> (engl. <i class="ita">Dendritic agate</i>) - bijeli ili sivkasti ahat s crnim linijama nalik granama</li>
+                              
+                <li class="red"><span class="bold">Enhidro ahat</span> (engl. <i class="ita">Enhydro agate</i>) - ahat s vodom zarobljenom unutar njega</li>
+              
+                <li class="red"><span class="bold">Fairburn ahat</span> (engl. <i class="ita">Fairburn agate</i>) - nalazi se samo u Fairburnu, prepoznatljiv po naglim promjenama smjerova slojeva</li>
+                
+                <li class="red"><span class="bold">Irski ahat</span> (engl. <i class="ita">Iris agate</i>) - pod pravim kutem, zbog loma svjetlosti kroz tanke slojeve tvori veliki spektar boja</li>
+
+                <li class="red"><span class="bold">Lake Superior ahat</span> (engl. <i class="ita">Lake Superior agate</i>) - crveno obojen ahat, smatra se starim preko milijun godina</li>
+                              
+                <li class="red"><span class="bold">Mahovinasti ahat</span> (engl. <i class="ita">Moss agate</i>) - bijeli ili sivkasti ahat sa zelenim linijama nalik granama</li>
+              
+                <li class="red"><span class="bold">Meksički ahat</span> (engl. <i class="ita">Crazy lace agate</i>) - pretežno bijeli, sa smeđim, crnim i sivim, ponekad crvenkastim slojevima</li>
+
+                <li class="red"><span class="bold">Oniks</span> (engl. <i class="ita">Onyx</i>) - slojevi crne i/ili bijele boje</li>
+                
+                <li class="red"><span class="bold">Sardoniks</span> (engl. <i class="ita">Sardonyx</i>) - oniks u kojem u slojevima dominira crvena umjesto crne boje</li>
+                
+                <li class="red"><span class="bold">Trakasti ahat</span> (engl. <i class="ita">Fortification agate</i>) - prepoznatljiv po uzorku slojeva, može biti u raznim bojama</li>
+
+                <li class="red"><span class="bold">„Jaja groma“</span> (engl. <i class="ita">Thunder-egg</i>) - često jednobojni uzorak nalik na zvijezdu</li>
+              </ul>
+              <br>
+              S obzirom da je ahat varijetet kvarca, raširen je po cijelom svijetu. Nema značajnijih nalazišta, a u Hrvatskoj se pronalazi na Gaveznici kod Lepoglave.
+              <br>
+              <br>
+              <span class="upozorenje">Trajna izloženost česticama kvarca tijekom brušenja ili rezanja kristala može biti opasna po život!</span>
+              <br>
+              <span class="upozorenje">S primjercima rukovati oprezno i obavezno oprati ruke!</span>
+
+              
+            </div>
+        </div>
+        
+
+
+        <div class="SVAsvojstva">
+
+          <div class="DVAsvojstva">
+
+            <div class="SETsvojstva">
+              <div class="SvojstvoNaslov">Fizička svojstva</div>
+              <div style="margin-top: 0.5vw; font-family: 'roboto slab'; text-size-adjust: none;">
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw;"><span class="FizRed">Boja:&nbsp;</span><span class="text">bilo koja boja, česti višebojni primjerci</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Prozirnost:&nbsp;</span><span class="text">poluproziran</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Sjaj:&nbsp;</span><span class="text">voštani, tupi</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Ogreb:&nbsp;</span><span class="text">bijeli</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Tvrdoća:&nbsp;</span><span class="text">6½ - 7</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Čvrstoća:&nbsp;</span><span class="text">krhki</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Kalavost:&nbsp;</span><span class="text">nije zabilježena</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Lom:&nbsp;</span><span class="text">konhoidalan, sub-konhoidalan</span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Gustoća:&nbsp;</span><span class="text">2,6 g/cm<sup class="SupSet">3</sup></span></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; padding-right: 1vw; margin-top: 0.2vw;"><span class="FizRed">Komentar:&nbsp;</span><span class="text">varira ovisno o primjesima</span></div>
+              </div>
+            </div>
+
+          <div class="SETsvojstva">
+            
+            <div class="SvojstvoNaslov">Kemijska svojstva</div>
+            <div style="margin-top: 0.5vw; font-size: 1vw; font-family: 'roboto slab';">
+              <div class="FormSet"><span class="FizRed">Formula:&nbsp;</span><span class="Silicij text">Si</span><span class="Kisik text">O</span><sub class="SubSet2">2</sub></div>
+              <div style="font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><span class="FizRed">Opća grupa:&nbsp;</span><span class="text">silikat</span></div>
+              <div style="font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><span class="FizRed">Dodatna grupacija:&nbsp;</span><span class="text">-</span></div>
+              <div style="font-size: 1vw; font-family: 'roboto slab'; display: flex; margin-top: 0.2vw;"><nobr class="FizRed">Udio elemenata:&nbsp;</nobr> 
+                <table>
+                  <tr>
+                    <td><span class="Kisik text">O</span> <span class="text">(Kisik)</span></td>
+                    <td><span class="textPOS">53,25%</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="Silicij text">Si</span> <span class="text">(Silicij)</span></td>
+                    <td><span class="textPOS">46,75%</span></td>
+                  </tr>
+                </table> 
+              </div>
+              
+            </div>
+          </div>
+
+          
+
+          </div>
+
+          <div class="Samocentriranje">
+
+
+            <div class="SETsvojstva">
+              <div class="SvojstvoNaslov">Kristalografija</div>
+              <div style="margin-top: 0.5vw; font-size: 1vw; font-family: 'roboto slab';  ">
+                <div style="font-size: 1vw; font-family: 'roboto slab'; "><nobr class="FizRed">Kristalni sustav:&nbsp;</nobr><nobr class="text">trigonski</nobr></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><nobr class="FizRed">Klasa (H-M):&nbsp;</nobr><nobr class="text">3 2 - trapezoedarna</nobr></div>
+                <div style="display: flex; font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><nobr class="FizRed">Parametri ćelije:&nbsp;</nobr>
+                  <table>
+                    <tr>
+                      <td><nobr class="text">a = 4,9133 &#xc5;</nobr></td>
+                    </tr>
+                    <tr>
+                      <td><nobr class="text">c = 5,4053 &#xc5;</nobr></td>
+                    </tr>
+                  </table>
+                </div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><nobr class="FizRed">Volumen ćelije:&nbsp;</nobr><nobr class="text">113,00 &#xc5;<sup class="SupSet">3</sup></nobr></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><nobr class="FizRed">Omjer:&nbsp;</nobr><nobr class="text">1 : 1,1</nobr></div>
+                <div style="font-size: 1vw; font-family: 'roboto slab'; margin-top: 0.2vw;"><nobr class="FizRed">Broj molekula (Z):&nbsp;</nobr><nobr class="text">3</nobr></div>
+                
+                
+              </div>
+            </div>
+            
+          
+          </div>
+          
+        </div>
+        
+
+
+        
+    </div>
+
+
     
-    <!--<div class="Uvod-Okvir">
-      <p class="Uvod">MINERALI</p>
-    </div>
-    <div style="color: white; background-color: royalblue; padding: 0.5vw; font-size: 1.5vw; width: 100%; display: flex; justify-content: center; border-bottom: solid black 0.25vw;">&#10097; &nbsp;&#10097; &nbsp;&#10097; &nbsp;Svi minerali su prirodni ukoliko u opisu slike nije navedeno drugačije &nbsp;&#10096; &nbsp;&#10096; &nbsp;&#10096;</div>
-    -->
-    <!-- Minerali -->
+    
 
-
-
-    <div class="Rešetka">
-
-      <a class="LNovi" href="Stranice-sa-mineralima/AhatNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/PlaviAhat-minTest.jpg" alt="">
-        <p class="ImeNovo">Ahat</p>
-        <p class="FormulaNova">SiO<sub class="SubSet">2</sub></p>
-      </a>
-
-      <a class="LNovi" href="Stranice-sa-mineralima/AkvamarinNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Akvatest-minTest.jpg">
-        <p class="ImeNovo">Akvamarin</p>
-        <p class="FormulaNova">Be<sub class="SubSet">3</sub>Al<sub class="SubSet">2</sub>Si<sub class="SubSet">6</sub>O<sub class="SubSet">18</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/AmazonitNovi.html">
-        <img class="SlikaNova" src="Slike/Amazonit.jpg" alt="">
-        <p class="ImeNovo">Amazonit</p>
-        <p class="FormulaNova">KAlSi<sub>3</sub>O<sub>8</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/AmetistNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Ametist-minTest.jpg" alt="">
-        <p class="ImeNovo">Ametist</p>
-        <p class="FormulaNova">SiO<sub class="SubSet">2</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/AngelitNovi.html">
-        <img class="SlikaNova" src="Slike/Angelit.jpg" alt="">
-        <p class="ImeNovo">Angelit</p>
-        <p class="FormulaNova">CaSO<sub>4</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/ApatitNovi.html">
-        <img class="SlikaNova" src="Slike/Zeleni_apatit.jpg" alt="">
-        <p class="ImeNovo">Apatit</p>
-        <p class="FormulaNova">Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>(Cl/F/OH)</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/AragonitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Aragonit-minTest.jpg" alt="">
-        <p class="ImeNovo">Aragonit</p>
-        <p class="FormulaNova">Ca(CO<sub class="SubSet">3</sub>)</p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/AstrofilitNovi.html">
-        <img class="SlikaNova" src="Slike/Astrofilit.jpg" alt="">
-        <p class="ImeNovo">Astrofilit</p>
-        <p class="FormulaNova">K<sub>2</sub>Na(Fe<sup>2+</sup>,Mn)<sub>7</sub>Ti<sub>2</sub>Si<sub>8</sub>O<sub>26</sub>(OH)<sub>4</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/AventurinNovi.html">
-        <img class="SlikaNova" src="Slike/Aventurin.jpg" alt="">
-        <p class="ImeNovo">Aventurin</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/AzuritNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Azurit-minTest.jpg" alt="">
-        <p class="ImeNovo">Azurit</p>
-        <p class="FormulaNova">Cu<sub class="SubSet">3</sub>(CO<sub class="SubSet">3</sub>)<sub class="SubSet">2</sub>(OH)<sub class="SubSet">2</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/BaritNovi.html">
-        <img class="SlikaNova" src="Slike/Barit.jpg" alt="">
-        <p class="ImeNovo">Barit</p>
-        <p class="FormulaNova">BaSO<sub>4</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/CijanitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Cij1-minTest.jpg" alt="">
-        <p class="ImeNovo">Cijanit</p>
-        <p class="FormulaNova">Al<sub class="SubSet">2</sub>OSiO<sub class="SubSet">4</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/Dimni_kvarcNovi.html">
-        <img class="SlikaNova" src="Slike/Dimni_kvarc.jpg" alt="">
-        <p class="ImeNovo">Dimni kvarc</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/FlogopitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Flogopit-minTest.jpg" alt="">
-        <p class="ImeNovo">Flogopit</p>
-        <p class="FormulaNova">KMg<sub class="SubSet">3</sub>(AlSi<sub class="SubSet">3</sub>O<sub class="SubSet">10</sub>)(OH)<sub class="SubSet">2</sub></p>
-      </a>
-
-      <a class="LNovi" href="Stranice-sa-mineralima/FluoritNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Fluotest-minTest.jpg" alt="">
-        <p class="ImeNovo">Fluorit</p>
-        <p class="FormulaNova">CaF<sub class="SubSet">2</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/FuksitNovi.html">
-        <img class="SlikaNova" src="Slike/Fuksit.jpg" alt="">
-        <p class="ImeNovo">Fuksit</p>
-        <p class="FormulaNova">K(Al,Cr)<sub>3</sub>Si<sub>3</sub>O<sub>10</sub>(OH)<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/GranatNovi.html">
-        <img class="SlikaNova" src="Slike/Granat.jpg" alt="">
-        <p class="ImeNovo">Granat</p>
-        <p class="FormulaNova">X<sub>3</sub>Z<sub>2</sub>(SiO<sub>4</sub>)<sub>3</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/HalkopiritNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Halk4-minTest.jpg" alt="">
-        <p class="ImeNovo">Halkopirit</p>
-        <p class="FormulaNova">CuFeS<sub class="SubSet">2</sub></p>
-      </a>
-
-      <a class="LNovi" href="Stranice-sa-mineralima/HematitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Hematit-minTest.jpg" alt="">
-        <p class="ImeNovo">Hematit</p>
-        <p class="FormulaNova">Fe<sub class="SubSet">2</sub>O<sub class="SubSet">3</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/KalcitNovi.html">
-        <img class="SlikaNova" src="Slike/Žuti_kalcit.jpg" alt="">
-        <p class="ImeNovo">Kalcit</p>
-        <p class="FormulaNova">CaCO<sub>3</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/KrizoprasNovi.html">
-        <img class="SlikaNova" src="Slike/Krizopras.jpg" alt="">
-        <p class="ImeNovo">Krizopras</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/KunzitNovi.html">
-        <img class="SlikaNova" src="Slike/Kunzit.jpg" alt="">
-        <p class="ImeNovo">Kunzit</p>
-        <p class="FormulaNova">LiAlSi<sub>2</sub>O<sub>6</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/Kvarc_mliječnjakNovi.html">
-        <img class="SlikaNova" src="Slike/Geoda_otvorena.jpg" alt="">
-        <p class="ImeNovo">Kvarc mliječnjak</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/Kvarc_proziracNovi.html">
-        <img class="SlikaNova" src="Slike/Kvarc_prozirac-min.jpg" alt="">
-        <p class="ImeNovo">Kvarc prozirac</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/LabradoritNovi.html">
-        <img class="SlikaNova" src="Slike/Labradorit.jpg" alt="">
-        <p class="ImeNovo">Labradorit</p>
-        <p class="FormulaNova">(Ca,Na)(Al,Si)<sub>4</sub>O<sub>8</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/LepidolitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Lepidolit-minTest.jpg" alt="">
-        <p class="ImeNovo">Lepidolit</p>
-        <p class="FormulaNova">K(Li,Al<sub class="SubSet">3</sub>)(Al,Si<sub class="SubSet">3</sub>)O<sub class="SubSet">10</sub>(OH,F)<sub class="SubSet">2</sub></p>
-      </a>
-
-      <a class="LNovi" href="Stranice-sa-mineralima/MalahitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Malahit-minTest.jpg" alt="">
-        <p class="ImeNovo">Malahit</p>
-        <p class="FormulaNova">Cu<sub class="SubSet">2</sub>(CO<sub class="SubSet">3</sub>)(OH)<sub class="SubSet">2</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/MuskovitNovi.html">
-        <img class="SlikaNova" src="Slike/Muskovit.jpg" alt="">
-        <p class="ImeNovo">Muskovit</p>
-        <p class="FormulaNova">KAl<sub>2</sub>(Si<sub>3</sub>,Al)O<sub>10</sub>(OH,F)<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/PeridotNovi.html">
-        <img class="SlikaNova" src="Slike/Peridot.jpg" alt="">
-        <p class="ImeNovo">Peridot</p>
-        <p class="FormulaNova">Mg<sub>2</sub>SiO<sub>4</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="Stranice-sa-mineralima/PiritNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/PiritKocka-minTest.jpg" alt="">
-        <p class="ImeNovo">Pirit</p>
-        <p class="FormulaNova">FeS<sub class="SubSet">2</sub></p>
-      </a>
-
-      <a class="LNovi" href="Stranice-sa-mineralima/PiroluzitNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Piroluzit-minTest.jpg" alt="">
-        <p class="ImeNovo">Piroluzit</p>
-        <p class="FormulaNova">MnO<sub class="SubSet">2</sub></p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/PurpuritNovi.html">
-        <img class="SlikaNova" src="Slike/Purpurit.jpg" alt="">
-        <p class="ImeNovo">Purpurit</p>
-        <p class="FormulaNova">Mn<sup>3+</sup>(PO<sub>4</sub>)</p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/Pustinjska_ružaNovi.html">
-        <img class="SlikaNova" src="Slike/Pustinjska_ruža.jpg" alt="">
-        <p class="ImeNovo">Pustinjska ruža</p>
-        <p class="FormulaNova">CaSO<sub>4</sub> &#183; 2H<sub>2</sub>O</p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/RozenkvarcNovi.html">
-        <img class="SlikaNova" src="Slike/Rozenkvarc.jpg" alt="">
-        <p class="ImeNovo">Rozenkvarc</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/SafirNovi.html">
-        <img class="SlikaNova" src="Slike/Safir.jpg" alt="">
-        <p class="ImeNovo">Safir</p>
-        <p class="FormulaNova">Al<sub>2</sub>O<sub>3</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/SelenitNovi.html">
-        <img class="SlikaNova" src="Slike/Selenit.jpg" alt="">
-        <p class="ImeNovo">Selenit</p>
-        <p class="FormulaNova">CaSO<sub>4</sub> &#183; 2H<sub>2</sub>O</p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/SmaragdNovi.html">
-        <img class="SlikaNova" src="Slike/Smaragd.jpg" alt="">
-        <p class="ImeNovo">Smaragd</p>
-        <p class="FormulaNova">Be<sub>3</sub>Al<sub>2</sub>(Si<sub>6</sub>O<sub>18</sub>)</p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/TalkNovi.html">
-        <img class="SlikaNova" src="Slike/Talk.jpg" alt="">
-        <p class="ImeNovo">Talk</p>
-        <p class="FormulaNova">Mg<sub>3</sub>Si<sub>4</sub>O<sub>10</sub>(OH)<sub>2</sub></p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/TanzanitNovi.html">
-        <img class="SlikaNova" src="Slike/Tanzanit.jpg" alt="">
-        <p class="ImeNovo">Tanzanit</p>
-        <p class="FormulaNova">{Ca<sub>2</sub>}{Al<sub>3</sub>}(SiO<sub>4</sub>)<sub>3</sub>(OH)</p>
-      </a>-->
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/Tigrovo_okoNovi.html">
-        <img class="SlikaNova" src="Slike/Tigrovo_oko.jpg" alt="">
-        <p class="ImeNovo">Tigrovo oko</p>
-        <p class="FormulaNova">SiO<sub>2</sub></p>
-      </a>-->
-
-      <a class="LNovi" href="/Stranice-sa-mineralima/TirkizNovi.html">
-        <img class="SlikaNova" src="Slike/Spremne slike/Tirkiz-minTest.jpg" alt="">
-        <p class="ImeNovo">Tirkiz</p>
-        <p class="FormulaNova">CuAl<sub class="SubSet">6</sub>(PO<sub class="SubSet">4</sub>)<sub class="SubSet">4</sub>(OH)<sub class="SubSet">8</sub>&nbsp;&#183; 4H<sub class="SubSet">2</sub>O</p>
-      </a>
-
-      <!--<a class="LNovi" href="Stranice-sa-mineralima/TurmalinNovi.html">
-        <img class="SlikaNova" src="Slike/Turmalin.jpg" alt="">
-        <p class="ImeNovo">Turmalin</p>
-        <p class="FormulaNova">AD<sub>3</sub>G<sub>6</sub>(T<sub>6</sub>O<sub>18</sub>)(BO<sub>3</sub>)<sub>3</sub>X<sub>3</sub>Z</p>
-      </a>-->
-
-    </div>
-      
-    <div class="Podnožje">
  
-      
-
-      <div class="Prozorce">
-        <div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/facebook_145802.png" class="Linking" >MineralogijaHR</a></div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/instagram_3670125.png" class="Linking">Mineralogija_Hr</a></div>
-        </div>
-        <div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/gmail_5968534.png" class="Linking">Mineralogija.Hr@gmail.com</a></div>
-          <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/5296521_play_video_vlog_youtube_youtube logo_icon.svg" class="Linking">MineralogijaHr</a></div>  
-        </div>
-      </div>
-  
-      <div class="ObjasnjenaSet">
-        <div class="AAutor">Autor: Bruno Hledik</div>
-        <div class="TText">Pratite novosti i moja putovanja na Instagramu i Facebooku.</div>
-        <div class="TText">Prijavite grešku na gmail uz literaturu iz koje je informacija dobivena.</div>
-        <div class="TText">Pogledajte kolekciju elemenata i minerala na YouTubeu.</div>
-        <div class="TText">Svi primjerci su prirodni ukoliko u opisu slike nije navedeno drugačije.</div>
-        <div class="TTText">&copy; Bruno Hledik 2023. All right reserved</div>
-      </div>
-  
-    </div>
-    <script type="text/javascript" src="/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
-  </body>
-</html>

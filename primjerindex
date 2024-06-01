@@ -1,516 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
-  <link rel="stylesheet" href="css/zaglavlje.css">
-  <link rel="stylesheet" href="css/blog.css">
-  <link rel="stylesheet" href="css/NoviGumbici.css">
-  <link rel="stylesheet" href="css/Slider.css">
-  <link rel="stylesheet" href="css/Podnozje.css">
-  <title>MineralogijaHR</title>
-  <meta name="description" content="Koračite u svijet ispod površine Zemlje i otkrite što sve priroda može stvoriti!">
-  <meta name="keywords" content="MineralogijaHR, Cromineral, Svijet minerala">
-  <style>
-    .SubSet2{
-      vertical-align: top;
-      position: relative;
-      font-size: 0.7vw;
-      top: 0.6vw;
-      font-weight: 600;
-    }
-    .SubSet{
-      vertical-align: top;
-      position: relative;
-      font-size: 0.8vw;
-      top: 0.2vw;
-      font-weight: 600;
-    }
-    .SupSet{
-      vertical-align: bottom;
-      position: relative;
-      font-size: 0.7vw;
-      top: -0.8vw;
-      font-weight: 600;
-    }
-
-    .dropdown-item{
-      font-family: 'rubik';
-      font-weight: 600;
-    }
-
-    @media (min-width: 1200px) {
-      .Responzivni-Font {
-        font-size: 1rem;
-      }
-      .RespNaslov{
-        font-size: 1.2rem;
-      }
-      .RespTxt{
-        text-align: justify;
-      }
-      .DinamickiAutor{
-        font-size: 0.8rem;
-      }
-    }
-    
-    @media (max-width: 1399px) {
-      .Responzivni-Font {
-        font-size: 1.8rem;
-      }
-      .RespNaslov{
-        font-size: 2rem;
-      }
-      .RespTxt{
-        text-align: justify;
-      }
-      .DinamickiAutor{
-        font-size: 1.2rem;
-      }
-    }
-
-    @media (max-width: 1199px) {
-      .Responzivni-Font {
-        font-size: 2rem;
-      }
-      .RespNaslov{
-        font-size: 1.2rem;
-      }
-      .RespTxt{
-        text-align: justify;
-      }
-      .DinamickiAutor{
-        font-size: 0.8rem;
-      }
-      .Pravo{
-        top: 3.7vw;
-        font-size: 1.5vw;
-      }
-    }
-    
-    @media (max-width: 991px) {
-      .Responzivni-Font {
-        font-size: 2.2rem;
-      }
-      .RespNaslov{
-        font-size: 1.2rem;
-      }
-      .RespTxt{
-        text-align: justify;
-      }
-      .DinamickiAutor{
-        font-size: 0.8rem;
-      }
-      .Pravo{
-        top: 7.5vw;
-      }
-    }
-
-    @media (max-width: 767px) {
-      .Responzivni-Font {
-        font-size: 2.4rem;
-      }
-      .RespNaslov{
-        font-size: 1.2rem;
-      }
-      .RespTxt{
-        text-align: justify;
-      }
-      .DinamickiAutor{
-        font-size: 0.8rem;
-      }
-      .Pravo{
-        top: 7.6vw;
-        font-size: 2vw;
-      }
-    }
-
-    @media (max-width: 575px) {
-      .Responzivni-Font {
-        font-size: 2.6rem;
-      }
-      .RespNaslov{
-        font-size: 1.2rem;
-      }
-      .RespTxt{
-        text-align: justify;
-      }
-      .DinamickiAutor{
-        font-size: 0.8rem;
-      }
-    }
-    
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Mineralog1/css/RespoMin.css">
+    <title>22</title>
 </head>
-<body style="background-color: rgb(245, 245, 245);">
+<body>
+    4 SLIKE
 
-  <!-- ZAGLAVLJE 
-
-  <div class="Zaglavlje" style="background-color: #454545; position: absolute; z-index: 100;">
-    style=" background-color: rgb(51, 51, 51); z-index: 100;"
-
-    <div class="Lijevo1" style="background-color: #454545; margin-left: 2vw;">
-      <a class="gumbac1" style="font-family: 'Rubik'; background-color: orangered; color: black; " href="index.html">Mineralogija.hr</a>
-    </div>
+    <div class="GalSlika" style="display: flex; width: 100%; border-bottom: solid 0.15vw; pad: 0; margin: 0;">
+        
+      <div class="SetSlika">
+        <div class="SetSlika2" style="display: flex;">
+          <div class="Slikica" style="width: 50%;"><img src="/Mineralog1/Slike/PiritDruza.jpg" alt="" class="SSlika"><div class="UUzSliku" style="color: black;">Pirit druza</div></div>
+          <div class="Slikica" style="width: 50%;"><img src="/Mineralog1/Slike/PiritSunce.jpg" alt="" class="SSlika"><div class="UUzSliku" style="color: black;">Pirit sunce</div></div>  
+        </div>
+        <div style="display: flex;">
+          <p class="OOpisSlike">Peru</p>
+          <p class="OOpisSlike">Nepoznato nalazište</p>
+        </div>
+      </div>
+      
+      <div class="SetSlika">
+        <div class="SetSlika2" style="display: flex;">
+          <div class="Slikica" style="width: 50%;"><img src="/Mineralog1/Slike/PiritKocka.jpg.jpg" alt="" class="SSlika"><div class="UUzSliku" style="color: black;">Pirit kocka</div></div>
+          <div class="Slikica" style="width: 50%;"><img src="/Mineralog1/Slike/PiritDodekaedar.jpg.jpg" alt="" class="SSlika"><div class="UUzSliku" style="color: black;">Pirit dodekaedar</div></div>  
+        </div>
+        <div style="display: flex;">
+          <p class="OOpisSlike">Nepoznato nalazište</p>
+          <p class="OOpisSlike">Nepoznato nalazište</p>
+        </div>
+      </div>
     
-    <div class="Desno1" style="background-color: #454545">
-      <a class="gumbac1-mali" style="font-family: 'Rubik';" href="PSEtest.html">PSE</a>
-      <a class="gumbac1-srednji" style="font-family: 'Rubik';" href="Minerali.html">Minerali</a>
-      <a class="gumbac1-srednji" style="font-family: 'Rubik';" href="Galerija.html">Galerija</a>
     </div>
 
-  </div>-->
-  <div class="ZGL">
-    <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center;"><a class="Alink" href="index.html"><button class="Blink">MineralogijaHR</button></a></div>
-    <div style="margin-top: -0.2vw; display: flex; width: 100%; align-items: center; color: white; justify-content: center;"><div class="Mjestooo">&#8275; Mjesto gdje su svi minerali prirodni &#8275;</div></div>
-    <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center; justify-content: right; margin-right: 1.5vw;">
-      
-      
+2 SLIKE
 
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none;">
-          Menu
-        </button>
-        <ul class="dropdown-menu" style="height: fit-content;">
-          <li><a class="dropdown-item" href="Minerali.html">Minerali</a></li>
-          <li><a class="dropdown-item" href="Galerija.html">Galerija</a></li>
-          <li><a class="dropdown-item" href="PSEtest.html">PSE</a></li>
-        </ul>
-      </div>
-      
-      
+<div class="GalSlika" style="display: flex; width: 100%; border-bottom: solid 0.15vw; pad: 0; margin: 0;">
+        
+  <div class="SetSlika" style="display: flex; flex-direction: column; width: 100%;">
+    <div class="SetSlika2" style="display: flex;">
+      <div style="width: 100%;" class="Slikica"><img src="/Mineralog1/Slike/Ametist-min.jpg" alt="" class="SSlika"><div class="UUzSliku">Ametist</div></div>
+      <div style="width: 100%;" class="Slikica"><img src="/Mineralog1/Slike/Ametist_kaktus.jpg" alt="" class="SSlika"><div class="UUzSliku">Ametist "kaktus"</div></div>
+    </div>
+    <div style="display: flex;">
+      <p style="width: 100%;" class="OOpisSlike">Nepoznato nalazište</p>
+      <p style="width: 100%;" class="OOpisSlike">Nepoznato nalazište</p>
     </div>
   </div>
 
+</div>
 
+1 SLIKA
 
-
-
-
-
-
-
-
-
-
-  
-
-  <!-- Blog -->
-
-
-  <div class="CSSgal">
-
-    <!-- Don't wrap targets in parent -->
-    <s id="s1"></s> 
-    <s id="s2"></s>
-    <s id="s3"></s>
-    <s id="s4"></s>
-    <s id="s5"></s>
-    <s id="s6"></s>
-    <s id="s7"></s>
-  
-    <div class="slider">
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%; ">Uvarovit - Ca<sub class="SubSet">3</sub>Cr<sub class="SubSet">2</sub>(SiO<sub class="SubSet">4</sub>)<sub class="SubSet">3</sub></div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Uvarovit.jpg" alt="">
+<div class="GalSlika" style="display: flex; width: 100%; border-bottom: solid 0.15vw; pad: 0; margin: 0;">
+        
+    <div class="SetSlika" style="display: flex; flex-direction: column; width: 100%;">
+      <div class="SetSlika2" style="display: flex;">
+        <div style="width: 100%;" class="Slikica"><img src="/Mineralog1/Slike/Ametist-min.jpg" alt="" class="SSlika"><div class="UUzSliku">Ametist</div></div>
       </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Eritrit - Co<sub class="SubSet">3</sub>(AsO<sub class="SubSet">4</sub>)<sub class="SubSet">2</sub>&nbsp;&#183; 8H<sub class="SubSet">2</sub>O</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Eritrit.jpg" alt="">
+      <div style="display: flex;">
+        <p style="width: 100%;" class="OOpisSlike">Nepoznato nalazište</p>
       </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Kavansit - Ca(VO)Si<sub class="SubSet">4</sub>O<sub class="SubSet">10</sub>&nbsp;&#183; 4H<sub class="SubSet">2</sub>O</div>
-        <img style="height: 100%; width: 100%; object-fit: cover; " src="Slike/Naslovna/Kavansit.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Astrofilit - K<sub class="SubSet">2</sub>NaFe<sup class="SupSet">2+</sup><sub class="SubSet">7</sub>Ti<sub class="SubSet">2</sub>Si<sub class="SubSet">8</sub>O<sub class="SubSet">26</sub>(OH)<sub class="SubSet">4</sub>F</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Astrofilit2.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Wulfenit - Pb(MoO<sub class="SubSet">4</sub>)</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Wulfenit.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Kvarc prozirac - SiO<sub class="SubSet">2</sub></div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/KvarcProzirac.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Turmalin - AD<sub class="SubSet">3</sub>G<sub class="SubSet">6</sub>(T<sub class="SubSet">6</sub>O<sub class="SubSet">18</sub>)(BO<sub class="SubSet">3</sub>)<sub class="SubSet">3</sub>X<sub class="SubSet">3</sub>Z</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Turmalin.jpg" alt="">
-      </div>
-    </div>
-    
-    <div class="prevNext">
-      <div><a href="#s7"><b>&#8249;</b></a><a href="#s2"><b>&#8250;</b></a></div>
-      <div><a href="#s1"><b>&#8249;</b></a><a href="#s3"><b>&#8250;</b></a></div>
-      <div><a href="#s2"><b>&#8249;</b></a><a href="#s4"><b>&#8250;</b></a></div>
-      <div><a href="#s3"><b>&#8249;</b></a><a href="#s5"><b>&#8250;</b></a></div>
-      <div><a href="#s4"><b>&#8249;</b></a><a href="#s6"><b>&#8250;</b></a></div>
-      <div><a href="#s5"><b>&#8249;</b></a><a href="#s7"><b>&#8250;</b></a></div>
-      <div><a href="#s6"><b>&#8249;</b></a><a href="#s1"><b>&#8250;</b></a></div>
     </div>
   
-    <div class="bullets">
-      <a href="#s1"></a>
-      <a href="#s2"></a>
-      <a href="#s3"></a>
-      <a href="#s4"></a>
-      <a href="#s5"></a>
-      <a href="#s6"></a>
-      <a href="#s7"></a>
-    </div>
-
-    
-  
-  </div>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  <div style="display: flex; justify-content: center; align-items: center;"><p style="font-size: 3rem; align-items: center; margin: 1rem;">Novosti</p></div>
-
-  <div class="container-fluid text-center">
-    <div class="row justify-content-around">
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Kyawthuite.jpg"></div>
-          <div class="col RespNaslov"><p style="font-weight: bold; font-family: 'roboto slab'; margin: 0; margin-top: 0.5rem;">Top 5 najrjeđih minerala na Zemlji</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style=" margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte koji su to najrjeđi minerali na Zemlji, gdje se pronalaze, koja su njihova fizička i kemijska svojstva i kolika je njihova cijena na tržištu. Upoznat ćete se s definicijom minerala i uvjetima koji mineral čine rijetkim.</div>
-        <div  class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-        
-      </div>
-
-      
-
-      
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Tanzanit.jpeg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem; font-weight: bold; font-family: 'roboto slab';">Tanzanit: mineral s jednim nalazištem, Tanzanijom</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o tanzanitu, koja su njegova fizička i kemijska svojstva i kolika je tržišna cijena. Upoznat ćete se s identifikacijom tanzanita.</div>
-        <div  class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-        
-      </div>
-
-
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Halkantit.jpg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem;  font-weight: bold; font-family: 'roboto slab';">Top 5 najotrovnijih minerala na Zemlji</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem; font-family: 'roboto slab';">U ovom članku saznajte koji su to najotrovniji minerali na Zemlji, gdje se pronalaze, koja su njihova fizička i kemijska svojstva i kolika je njihova cijena na tržištu. Upoznat ćete se s definicijom minerala i uvjetima koji mineral čine otrovnim.</div>
-        <div  class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-        
-      </div>
-
-
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Smaragd.jpg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem;  font-weight: bold; font-family: 'roboto slab';">Smaragd: mineral iz rudnika Muzo, Kolumbija</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o mineralu smaragdu, gdje se pronalazi, koja su njegova fizička i kemijska svojstva i kolika je njegova tržišna cijena. Upoznat ćete se s identifikacijom minerala smaragda i uvjetima koji mineral čine posebnim.</div>
-        <div  class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-      
-      </div>
-
-      
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Pirit.webp"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem; font-weight: bold; font-family: 'roboto slab';">Pirit: mineral iz rudnika Victoria, Španjolska</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o mineralu piritu i njegovom najkvalitetnijem nalazištu, rudniku Viktorija. Upoznat ćete se s definicijom minerala pirita i činjenicama koji mineral čine posebnim.</div>
-        <div class="DinamickiAutor" style="margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-          
-      </div>
-
-    </div>
-  </div>
-
-
-
-
-
-  <div class="container-fluid text-center">
-    <div class="row justify-content-around">
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/RudnikSvBarbara.jpeg"></div>
-          <div class="col RespNaslov"><p style="font-weight: bold; font-family: 'roboto slab'; margin: 0; margin-top: 0.5rem;">Rudnik Sveta Barbara, Rude; minerali i elementi</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem; font-family: 'roboto slab';">U ovom članku upoznati ćete se s morfologijom stijena i minerala rudnika Sveta Barbara, saznat ćete koji minerali se formiraju u rudniku i na koji način, pobliže upoznajte najveći rudnik metala u Hrvatskoj.</div>
-        <div class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-        
-      </div>
-
-
-      
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/RudnikZrinski.jpg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem; font-weight: bold; font-family: 'roboto slab';">Rudnik Zrinski, Medvednica; minerali i elementi</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style=" margin: 1rem; font-family: 'roboto slab'; align-items: center;">U ovom članku saznajte sve o rudniku Zrinski na Medvednici i mineralima koji su tamo pronađeni, upoznajte se s morfologijom minerala na tom području te sa svim kemijskim i fizičkim karakteristikama istih.</div>
-        <div class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-        
-      </div>
-
-
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/FrancuskiRudnici.jpg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem;  font-weight: bold; font-family: 'roboto slab';">Francuski rudnici, Medvednica; minerali i elementi</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style=" margin: 1rem; font-family: 'roboto slab'; align-items: center;">U ovom članku saznajte sve o Francuskim rudnicima na Medvednici i mineralima koji su tamo pronađeni, upoznajte se s morfologijom minerala na tom području te sa svim kemijskim i fizičkim karakteristikama istih.</div>
-        <div class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-        
-      </div>
-
-
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Larimar.jpeg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem;  font-weight: bold; font-family: 'roboto slab';">Larimar: mineral s jednim nalazištem; Dominikanskom Republikom</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style=" margin: 1rem; font-family: 'roboto slab'; align-items: center;">U ovom članku saznajte o mineralu larimaru, rijetkom plavom varijetetu pektolita koji nalazište ima jedino u Dominikanskoj Republici.</div>
-        <div class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"> <div style="width: 100%; display: flex;">Autor: Bruno Hledik</div> <div>30.9.2023.</div> </div>
-      
-      </div>
-
-      
-
-      <div class="col-xxl-2 justify-content-between" style="border: solid; border-width: 0.15rem; border-color: black; padding: 0; display: flex; flex-direction: column; background-color: rgb(240, 240, 240); margin: 0.8rem;">
-        
-        <div>
-          <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Clanci/Wulfenit.jpg"></div>
-          <div class="col RespNaslov"><p style="margin: 0; margin-top: 0.5rem; font-weight: bold; font-family: 'roboto slab';">Najljepši minerali planete Zemlje; po izboru autora</p></div>
-        </div>
-
-        <div class="row align-self-center Responzivni-Font RespTxt" style=" margin: 1rem; font-family: 'roboto slab'; align-items: center;">U ovom članku saznajte koji veći, bitniji i vrjedniji minerali su pronađeni u Hrvatskoj, u kojim rudnicima, kako izgledaju i za što se koriste.</div>
-        <div class="DinamickiAutor" style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="width: 100%; display: flex;">Autor: Bruno Hledik</div><div>30.9.2023.</div></div>
-          
-      </div>
-
-    </div>
-  </div>
-
-
-  
-
-
-  <div class="Podnožje">
- 
-      
-
-    <div class="Prozorce">
-      <div>
-        <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/facebook_145802.png" class="Linking" >MineralogijaHR</a></div>
-        <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/instagram_3670125.png" class="Linking">Mineralogija_Hr</a></div>
-      </div>
-      <div>
-        <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/gmail_5968534.png" class="Linking">Mineralogija.Hr@gmail.com</a></div>
-        <div style="padding: 0.3vw 2vw; display: flex; align-items: center; font-size: 1vw;"><a href="#" target="" class="PreLinking"><img src="Ikone/5296521_play_video_vlog_youtube_youtube logo_icon.svg" class="Linking">MineralogijaHr</a></div>  
-      </div>
-    </div>
-
-    <div class="ObjasnjenaSet">
-      <div class="AAutor">Autor: Bruno Hledik</div>
-      <div class="TText">Pratite novosti i moja putovanja na Instagramu i Facebooku.</div>
-      <div class="TText">Prijavite grešku na gmail uz literaturu iz koje je informacija dobivena.</div>
-      <div class="TText">Pogledajte kolekciju elemenata i minerala na YouTubeu.</div>
-      <div class="TText">Svi primjerci su prirodni ukoliko u opisu slike nije navedeno drugačije.</div>
-      <div class="TTText">&copy; Bruno Hledik 2023. All right reserved</div>
-    </div>
-
-  </div>
-  
-
-
-
-
-  <!--<div class="Mineralogija-moj-hobi" style="margin-top: 40vw;">
-    Dobrodošli u svijet minerala
-  </div>
-
-  <div class="Okvir-O-Blogu">
-    <p class="O-blogu">
-      <samp class="Pocetno-Slovo">S</samp>tranica je napravljena u svrhu edukacije o mineralima i mineralogiji kao znanosti sa svim povezanim zanimanjima poput gemologije i kristalografije. Slike su iz vlastite kolekcije i
-      objavljene su samo ako su na mineralima odrađeni testovi tvrdoće, ogreba i boje tako da su provjereni, neki minerali biti će lažni, tretirani
-      zagrijavanjem, bojanjem ili slično. Uz slike takvih minerala biti će naznačeno da su lažni i na koji način su tretirani. Koristiti će se u svrhe usporedbe i edukacije o lažnim primjercima
-      te kako bi korisnik mogao i sam provjeriti posjeduje li pravi primjerak minerala.
-    </p>
-    <div class="slika-i-autor">
-      <img class="Slika-Uz-Blog" src="Slike/Halkopirit-min.jpg">
-      <div class="Autor-I-Specimen">
-        <p class="Specimen">Halkopirit</p>
-        <p class="Autor">Autor: Bruno H.</p>
-      </div> 
-    </div>
-  </div>
-
-  <div class="SetSlika">
-    <img class="Slika1" src="Slike/Piroluzit.jpg">
-    <img class="Slika2" src="Slike/Krizopras.jpg">
-    <img class="Slika3" src="Slike/Pirit_druza.jpg">
-    <img class="Slika4" src="Slike/Purpurit.jpg">
-    <img class="Slika5" src="Slike/Ahat_ruža.jpg">
-  </div>
-
-
-
-
-
-  <div class="Okvir-O-Blogu2">
-    <div class="slika-i-autor2">
-      <img class="Slika-Uz-Blog2" src="Slike/Kvarc_prozirac-min.jpg">
-      <div class="Autor-I-Specimen2">
-        <p class="Specimen2">Kvarc prozirac</p>
-        <p class="Autor2">Autor: Bruno H.</p>
-      </div> 
-    </div>
-    <p class="O-blogu2">
-      <samp class="Pocetno-Slovo2">K</samp>likom na gumb "PSE" možete pronaći cijeli periodni sustav elemenata. Klikom na određeni element dobiti
-      ćete njegove detalje i listu minerala koji sadrže taj element u postotcima poredanim od najvećeg do najmanjeg. Na kartici "Minerali"
-      pronaći ćete slike, imena i formule minerala, klikom na neki od minerala otvoriti će se stranica o tom mineralu sa svim detaljima.
-      Gumb "Galerija" dovodi Vas na listu minerala, odabirom minerala otvaraju se sve slike iste vrste minerala.
-    </p>
-  </div>-->
-  <script type="text/javascript" src="/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+</div>
 </body>
 </html>

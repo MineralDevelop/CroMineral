@@ -1,0 +1,10 @@
+              { name: 'Evenkite<br>(-)', formula: 'C<sub class="SubSet4">23</sub>H<sub class="SubSet4">48</sub></td>', number: '14,90%' },
+              { name: 'Dinite<br>(-)', formula: 'C<sub class="SubSet4">20</sub>H<sub class="SubSet4">36</sub></td>', number: '13,12%' },
+              { name: 'Fichtelite<br>(-)', formula: 'C<sub class="SubSet4">19</sub>H<sub class="SubSet4">34</sub></td>', number: '13,06%' },
+              { name: 'Branchite<br>(-)', formula: 'C<sub class="SubSet4">20</sub>H<sub class="SubSet4">34</sub></td>', number: '12,49%' },
+              { name: 'Flagstaffite<br>(-)', formula: 'C<sub class="SubSet4">10</sub>H<sub class="SubSet4">22</sub>O<sub class="SubSet4">3</sub></td>', number: '11,65%' },
+              { name: 'Ice<br>(Led)</td>', formula: 'H<sub class="SubSet4">2</sub>O</td>', number: '11,19%' },
+              { name: 'Refikite<br>(-)', formula: 'C<sub class="SubSet4">20</sub>H<sub class="SubSet4">34</sub>O<sub class="SubSet4">2</sub></td>', number: '11,18%' },
+              { name: 'Simonellite<br>(-)', formula: 'C<sub class="SubSet4">19</sub>H<sub class="SubSet4">24</sub></td>', number: '9,58%' },
+              { name: 'Acetamide<br>(Acetamid)</td>', formula: 'CH<sub class="SubSet4">3</sub>CONH<sub class="SubSet4">2</sub></td>', number: '8,53%' },
+            
