@@ -1,7 +1,9 @@
 <template>
   
   <div v-if="this.Zaglavlje === true">
-
+    <body class="BCK">
+      
+    
   <div v-if="this.Zaglavlje === true" class="ZGL">
     <head>
       <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
@@ -30,72 +32,107 @@
     </div>
   </div>
   
-  <div class="CSSgal">
+    <div class="slideshow">
+      <div v-for="(slide, index) in slides" :key="index">
+        <img :src="slide.src" :alt="'Slide ' + (index + 1)" :style="{ transform: slide.transform, zIndex: slide.zIndex }">
+        <div class="slide-text" v-if="currentSlide === index">{{ slide.text }}</div>
+      </div>
+    </div>
+  <br><br>
 
-    <!-- NE STAVLJAJ U DRUGI ELEMENT V -->
-    <s id="s1"></s> 
-    <s id="s2"></s>
-    <s id="s3"></s>
-    <s id="s4"></s>
-    <s id="s5"></s>
-    <s id="s6"></s>
-    <s id="s7"></s>
-    <!-- NE STAVLJAJ U DRUGI ELEMENT _ -->
+  <div class="OKV">
+    <div class="OKG">
+      <div class="TOP">CroMineral</div>
+      <br>  
+      <div class="MID">
+        Dobrodošli u svijet ispod površine Zemlje, u svijet koji priroda skriva od Vas.
+        Ovdje možete saznati sve o mineralima i elementima, bilo to identifikacija
+        minerala, želja za učenjem nečega novoga, priprema za test iz kemije ili
+        gledanje slika iz razonode, uvijek ste dobrodošli! Trudim se svakim danom,
+        svakim putovanjem i sajmom, pa i svakom kupnjom ljudima približiti svijet
+        minerala kakav on zaista jest, bez lažnih minerala i informacija i sa što više
+        dokaza, slika i obajšnjenja. Zahvalan sam na Vašem dolasku i nadam se da
+        će CroMineral na Vas ostaviti dobar dojam.
+      </div>
+      <br> 
+    </div>
 
-    <div class="slider">
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%; ">Uvarovit - Ca<sub class="SubSet">3</sub>Cr<sub class="SubSet">2</sub>(SiO<sub class="SubSet">4</sub>)<sub class="SubSet">3</sub></div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Uvarovit.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Eritrit - Co<sub class="SubSet">3</sub>(AsO<sub class="SubSet">4</sub>)<sub class="SubSet">2</sub>&nbsp;&#183; 8H<sub class="SubSet">2</sub>O</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Eritrit.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Kavansit - Ca(VO)Si<sub class="SubSet">4</sub>O<sub class="SubSet">10</sub>&nbsp;&#183; 4H<sub class="SubSet">2</sub>O</div>
-        <img style="height: 100%; width: 100%; object-fit: cover; " src="Slike/Naslovna/Kavansit.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Astrofilit - K<sub class="SubSet">2</sub>NaFe<sup class="SupSet">2+</sup><sub class="SubSet">7</sub>Ti<sub class="SubSet">2</sub>Si<sub class="SubSet">8</sub>O<sub class="SubSet">26</sub>(OH)<sub class="SubSet">4</sub>F</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Astrofilit2.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Wulfenit - Pb(MoO<sub class="SubSet">4</sub>)</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Wulfenit.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Kvarc prozirac - SiO<sub class="SubSet">2</sub></div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/KvarcProzirac.jpg" alt="">
-      </div>
-      <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS" style="display: flex; padding: 1rem; justify-content: start; align-items: end; height: 100%;">Turmalin - AD<sub class="SubSet">3</sub>G<sub class="SubSet">6</sub>(T<sub class="SubSet">6</sub>O<sub class="SubSet">18</sub>)(BO<sub class="SubSet">3</sub>)<sub class="SubSet">3</sub>X<sub class="SubSet">3</sub>Z</div>
-        <img style="height: 100%; width: 100%; object-fit: cover;" src="Slike/Naslovna/Turmalin.jpg" alt="">
+    <div class="OKG"> 
+      <div class="Spojeno">
+        <div>
+          <img style="width: 30vw" src="/Slike/Periodni.jpg.png" alt="">
+        </div>
+        <div class="Lijevo">
+          <div class="NaslovL">
+            Periodni sustav elemenata
+          </div>
+          <div class="TekstL">
+            Na stranici možete pronaći periodni sustav elemenata, u kojem na odabir elementa dobijete najvažnije o elementu, kemijska svojstva i listu minerala.
+          </div> 
+        </div>
       </div>
     </div>
-    <div class="prevNext">
-      <div><a href="#s7"><b>&#8249;</b></a><a href="#s2"><b>&#8250;</b></a></div>
-      <div><a href="#s1"><b>&#8249;</b></a><a href="#s3"><b>&#8250;</b></a></div>
-      <div><a href="#s2"><b>&#8249;</b></a><a href="#s4"><b>&#8250;</b></a></div>
-      <div><a href="#s3"><b>&#8249;</b></a><a href="#s5"><b>&#8250;</b></a></div>
-      <div><a href="#s4"><b>&#8249;</b></a><a href="#s6"><b>&#8250;</b></a></div>
-      <div><a href="#s5"><b>&#8249;</b></a><a href="#s7"><b>&#8250;</b></a></div>
-      <div><a href="#s6"><b>&#8249;</b></a><a href="#s1"><b>&#8250;</b></a></div>
+
+    <div class="OKG"> 
+      <div class="Spojeno">
+        
+        <div class="Desno">
+          <div class="NaslovR">
+            Minerali
+          </div>
+          <div class="TekstR">
+            Spisak minerala iz vlastite kolekcije omogućuje odabir minerala i otvara informacije o istome te fizička i kemijska svojstva i kristalografiju.
+          </div> 
+        </div>
+        <div>
+          <img style="width: 30vw" src="/Slike/Minerali.png" alt="">
+        </div>
+      </div>
     </div>
-    <div class="bullets">
-      <a href="#s1"></a>
-      <a href="#s2"></a>
-      <a href="#s3"></a>
-      <a href="#s4"></a>
-      <a href="#s5"></a>
-      <a href="#s6"></a>
-      <a href="#s7"></a>
+
+    <div class="OKG"> 
+      <div class="Spojeno">
+        <div>
+          <img style="width: 30vw" src="/Slike/Periodni.jpg.png" alt="">
+        </div>
+        <div class="Lijevo">
+          <div class="NaslovL">
+            Galerija
+          </div>
+          <div class="TekstL">
+            U galeriji možete pronaći više slika minerala nego što je prikazano na njegovoj stranici, a često i makrofotografije.
+          </div> 
+        </div>
+      </div>
     </div>
+
   </div>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+
+  <!--
+    <div class="OKG">
+    <div class="TOP">NAPISI ZA: CILJEVE, posebno pse, minerali, galerija i dodaj slike, za koga je namjenjena O stranici</div>
+    <br>  
+    <div class="MID">
+      Na stranici možete pronaći periodni sustav elemenata, u kojem na odabir elementa
+      dobijete najvažnije o elementu, kemijska svojstva i listu minerala.
+      Zatim je tu
+      Spisak minerala iz vlastite kolekcije omogučuje odabir minerala i otvara informacije
+      o istome te fizička i kemijska svojstva i kristalografiju. U galeriji možete pronaći
+      više slika minerala, a često i makrofotografije. Svi slikani minerali na stranici
+      su iz vlastite kolekcije, potvrđeni pravi primjerci identificirani izvršavanjem testova
+      i uspoređivanjem slika istog minerala s istog nalazišta. Ako je u pitanju spoznavanje
+      lažnog primjerka minerala, to će biti jasno naznačeno uz sliku.
+    </div>
+    <br>  
+    <div class="BOT">Vaš autor, Bruno Hledik</div>
+  </div>
+-->
   
 
+      <br><br>
+    </body>
   </div>
   
   
@@ -135,8 +172,18 @@ export default {
       GalerijaShow: false,
       Zaglavlje: true,
       PicURL: null,
+      proba: true,
 
-      proba: true
+      slides: [
+        { src: '/Slike/Ametist.jpg', transform: 'translateX(0)', text: 'Ametist' },
+        { src: '/Slike/ARA3.jpg', transform: 'translateX(100%)', text: 'Aragonit' },
+        { src: '/Slike/Geoda_zatvorena.jpg', transform: 'translateX(100%)', text: 'Geoda' },
+        { src: '/Slike/Tanzanit.jpg', transform: 'translateX(100%)', text: 'Tanzanit' },
+        { src: '/Slike/Ahat_ruža.jpg', transform: 'translateX(100%)', text: 'Ahat ruža' },
+        { src: '/Slike/Crni_kijanit.jpg', transform: 'translateX(100%)', text: 'Crni cijanit' },
+        { src: '/Slike/Dendritski_ahat.jpg', transform: 'translateX(100%)', text: 'Dendritski ahat' }
+      ],
+      currentSlide: 0,
     }
   },
   components: {
@@ -148,8 +195,39 @@ export default {
       MineraliIzbornik,
    //   DodavanjeEle,
   },
+  mounted() {
+    setInterval(() => {
+      const nextSlideIndex = (this.currentSlide + 1) % this.slides.length;
+      this.showSlide(nextSlideIndex);
+    }, 15000);
+  },
   methods: {
+      showSlide(index) {
+      if (index === this.currentSlide) return;
 
+      const lastIndex = this.slides.length - 1;
+      const transitioningFromLastToFirst = this.currentSlide === lastIndex && index === 0;
+      let direction = 'next';
+
+      if (!transitioningFromLastToFirst) {
+        direction = index > this.currentSlide ? 'next' : 'prev';
+      }
+
+      this.slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.transform = 'translateX(0)';
+          slide.zIndex = 2;
+        } else if (i === this.currentSlide) {
+          slide.transform = direction === 'next' ? 'translateX(-100%)' : 'translateX(100%)';
+          slide.zIndex = 1;
+        } else {
+          slide.transform = 'translateX(100%)';
+          slide.zIndex = 0;
+        }
+      });
+
+      this.currentSlide = index;
+    },
 
 
 
@@ -205,10 +283,120 @@ export default {
       },
   created() {
     document.title = 'CroMineral';
-  }
+  },
 }
 </script>
 <style scoped>
+.OKV{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80vw;
+}
+.ba{
+  width: 50vw;
+}
+.Desno{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+.NaslovR{
+    font-size: 2vw;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding-left: 5vw;
+    justify-content: start;
+    margin-bottom: 1.2vw;
+}
+.TekstR{
+    display: flex;
+    font-size: 1.2vw;
+    text-align: justify;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    padding-right: 2vw;
+}
+.Lijevo{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.NaslovL{
+    font-size: 2vw;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding-right: 5vw;
+    justify-content: end;
+    padding-bottom: 1.2vw;
+}
+.TekstL{
+    width: 50vw;
+    display: flex;
+    font-size: 1.2vw;
+    text-align: justify;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    padding-left: 2vw;
+}
+.Spojeno{
+  display: flex;
+  width: 80vw;
+  justify-content: start;
+}
+  .BCK{
+    background-color: #454545;
+  }
+  .OKG{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .TOP{
+    padding-left: 5vw;
+    width: 100%;
+    font-size: 2vw;
+    color: white;
+  }
+  .TOP2{
+    width: 100%;
+    margin-right: 5vw;
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    justify-content: end;
+  }
+  .BOT{
+    width: 100%;
+    display: flex;
+    font-size: 1.2vw;
+    color: white;
+    justify-content: end;
+  }
+  .MID{
+    width: 80vw;
+    font-size: 1.2vw;
+    text-align: justify;
+    color: white;
+  }
   .SubSet2{
       vertical-align: top;
       position: relative;
@@ -336,4 +524,31 @@ export default {
         font-size: 0.8rem;
       }
     }
+
+
+    .slideshow {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  height: auto;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 1s ease-in-out;
+}
+.slide-text {
+  position: absolute;
+  bottom: 1vw;
+  left: 1vw;
+  color: black;
+  font-weight: bold;
+  font-size: 1vw; /* Adjust the font size as needed */
+  z-index: 10; /* Ensure text appears above the image */
+}
 </style>

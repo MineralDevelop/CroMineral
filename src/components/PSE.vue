@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="/css/NoviGumbici.css">
     <link rel="stylesheet" href="/css/PSE.css">
   </head>
+  <body style=" background-color: #454545;">
+    
+  
   <div style="display: flex; background-color: #454545; height: 6vh; position: relative; z-index: 100; width: 100%; margin-bottom: 1vw;">
       <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center;"><a class="Alink" @click="changeZaglavlje()"><button class="Blink">MineralogijaHR</button></a></div>
       <div style="margin-top: -0.2vw; display: flex; width: 100%; align-items: center; color: white; justify-content: center;"><div class="Mjestooo" style="font-family: 'Rubik';">&#8275; Mjesto gdje su svi minerali prirodni &#8275;</div></div>
@@ -1638,6 +1641,8 @@
       </div>
       
   </div>
+  <br><br><br>
+  </body>
   </div>
 
 
@@ -1737,6 +1742,9 @@
 </script>
 
 <style scoped>
+.vrh, .vrhD, .vrhP, .rub{
+  background-color: white;
+}
   [v-cloak] {
         display: none;
       }

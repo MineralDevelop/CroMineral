@@ -21,6 +21,7 @@
       </div>
     </div>
     <div v-if="Prikazi && OdabraniMineral === null">
+      <body class="BCK">
     <head>
       <link rel="stylesheet" href="css/Podnozje.css">
       <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
@@ -311,6 +312,9 @@
       </a>-->
       
     </div>
+    
+        
+      </body>
     </div> <!-- Zavrsava "Prikazi"-->
 
 
@@ -385,6 +389,11 @@ export default {
       },
 }
 </script>
+<style scoped>
+  .BCK{
+    background-color: #454545;
+  }
+</style>
 
 
 
@@ -514,5 +523,7 @@ export default {
         font-weight: 300;
       }
 
-    
+      .LNovi{
+        border-color: white;
+      }
 </style>
